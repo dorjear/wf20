@@ -429,6 +429,19 @@ public class JsonObjectUtil {
 		return result;
 	}	
 	
+	public static Object convertStringToObject(String str, String clazz){
+		Object result=null;
+		try {
+			result=gson.fromJson(str,Class.forName(clazz));				
+		} catch (JsonSyntaxException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
+		return result;
+	}	
+	
 	private static String handleDataFileName(String dataFileName){
 		if(StringUtils.isNotBlank(dataFilePrefix) & !dataFileName.startsWith(dataFilePrefix)){
 			dataFileName=dataFilePrefix+dataFileName;
