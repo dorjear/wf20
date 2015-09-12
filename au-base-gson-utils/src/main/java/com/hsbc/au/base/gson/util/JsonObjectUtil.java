@@ -341,6 +341,18 @@ public class JsonObjectUtil {
 		
 	}		
 	
+	public static String loadStringFromFileSystemJsonFileFullPath(String dataFileName){
+		String result=null;
+		try {
+			File file=new File(dataFileName);
+			result=FileUtils.readFileToString(file);		
+		} catch (IOException e) {
+			e.printStackTrace();
+		}		
+		return result;
+		
+	}		
+	
 	public static <T> T loadObjectFromFileSystemJsonFileRelativePath(String dataFileName,Class<T> type){
 		T result=null;
 		try {

@@ -1,5 +1,7 @@
 package com.hsbc.multiapp.wf.web.common.controller;
  
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -21,11 +23,16 @@ public class JsonFrontController {
     }
  
     @RequestMapping(value = "/multiapp", method = RequestMethod.POST)
-    public @ResponseBody String handleRequestJsonAndResponseJson(@RequestBody String requestStr) {
+    public @ResponseBody String handleRequestJsonAndResponseJson(@RequestBody String requestStr, HttpServletRequest request) {
+    	String path = request.getServletContext().getRealPath("/");
+    	System.out.println(path);
     	String dataFileName = "FormCodeValue";
-    	FormCodeValue codeValue = JsonObjectUtil.loadObjectFromClassPathJsonFile(dataFileName, FormCodeValue.class);
+    	String fileFullPath = path+"jsonTest/json/response/"+dataFileName+".txt";
+
+    	FormCodeValue codeValue = JsonObjectUtil.loadObjectFromFileSystemJsonFileFullPath(fileFullPath, FormCodeValue.class);
     	String responseStr = JsonObjectUtil.convertObjectToString(codeValue);
-    	responseStr = JsonObjectUtil.loadStringFromClassPathJsonFile(dataFileName);
+    	System.out.println(responseStr);
+    	responseStr = JsonObjectUtil.loadStringFromFileSystemJsonFileFullPath(fileFullPath);
         System.out.println(requestStr);
         return responseStr;
     }
