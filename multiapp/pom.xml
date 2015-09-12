@@ -46,6 +46,11 @@
 			<artifactId>au-ralf-form-objects</artifactId>
 			<version>1.0.0</version>
 		</dependency>
+		<dependency>
+			<groupId>dorjear</groupId>
+			<artifactId>au-ralf-request-processor</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
