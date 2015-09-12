@@ -1,0 +1,3 @@
+var moGroupNextNumberRequestJSON = {
+	"cmd" : "moGroupNextNumber"
+};

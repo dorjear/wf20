@@ -1,0 +1,297 @@
+{
+  "consentCreditLimitIncrease": false,
+  "consentOverLimit": false,
+  "isLocked_": false,
+  "applicant": {
+    "numOfDependents_": 0,
+    "motherMaidenName_": {
+      "value_": "mumabc"
+    },
+    "partner_": {
+      "numOfDependents_": 0,
+      "gender_": {
+        "identifier_": "F"
+      },
+      "nationality_": {
+        "identifier_": "AUS"
+      },
+      "previousAddress_": {
+        "city": "Sydney",
+        "zip": "4567",
+        "unit": "25",
+        "streetNumber": "583",
+        "streetName": "George",
+        "streetType": "ST4",
+        "state": {
+          "identifier_": "NSW"
+        },
+        "country": {
+          "identifier_": "AUS"
+        }
+      },
+      "currentAddress_": {
+        "city": "Sydney",
+        "zip": "2345",
+        "unit": "24",
+        "streetNumber": "582",
+        "streetName": "George",
+        "streetType": "ST3",
+        "state": {
+          "identifier_": "NSW"
+        },
+        "country": {
+          "identifier_": "AUS"
+        },
+        "tenure": {
+          "year_": 1,
+          "month_": 2,
+          "days_": 0,
+          "hours_": 0,
+          "mins_": 0,
+          "seconds_": 0
+        }
+      },
+      "detailName_": {
+        "firstName_": "Mary",
+        "middleName_": "C",
+        "lastName_": "Johnes",
+        "prefix_": "Ms"
+      },
+      "homePhoneNumber_": {
+        "areaCode_": "",
+        "value_": "0277778888"
+      },
+      "mobilePhoneNumber_": {
+        "areaCode_": "",
+        "value_": "0477778889"
+      },
+      "dateofBirth_": "06/12/1980",
+      "supplementaryInformation_": {
+        "permanentAustralianResident": true
+      },
+      "identifications": {
+        "passport": {
+          "placeOfBirth": "Beijing",
+          "countryCode": {
+            "identifier_": "AUS"
+          },
+          "countryOfBirth": {
+            "identifier_": "CHN"
+          },
+          "familyNameAtBirth": "GUO",
+          "number": "4444444"
+        },
+        "mainPhotoIdType": "P"
+      },
+      "employment_": {
+        "occupation_": {
+          "identifier_": "Accountant"
+        },
+        "employer_": {
+          "name_": {
+            "name_": "HSBC Bank Australia"
+          }
+        },
+        "type_": {
+          "identifier_": "Accounting/Auditing"
+        },
+        "jobTitle_": {
+          "identifier_": "Analyst"
+        }
+      },
+      "vdcRequired": false,
+      "taxFileNumber": "739111222",
+      "taxTFNException": {
+        "identifier_": "NoTFN"
+      },
+      "reasonOfOpenAccount": {},
+      "countryOfBirth": {
+        "identifier_": "AUS"
+      },
+      "sourceOfIncome": {
+        "identifier_": "Salary"
+      },
+      "emailList_": [
+        "maryjohnes1234@hotmail.com"
+      ]
+    },
+    "gender_": {
+      "identifier_": "M"
+    },
+    "nationality_": {
+      "identifier_": "AUS"
+    },
+    "previousAddress_": {
+      "city": "Sydney",
+      "zip": "4567",
+      "unit": "23",
+      "streetNumber": "581",
+      "streetName": "George",
+      "streetType": "ST2",
+      "state": {
+        "identifier_": "NSW"
+      },
+      "country": {
+        "identifier_": "AUS"
+      }
+    },
+    "currentAddress_": {
+      "city": "Sydney",
+      "zip": "2345",
+      "unit": "22",
+      "streetNumber": "580",
+      "streetName": "George",
+      "streetType": "ST1",
+      "state": {
+        "identifier_": "NSW"
+      },
+      "country": {
+        "identifier_": "AUS"
+      },
+      "tenure": {
+        "year_": 1,
+        "month_": 2,
+        "days_": 0,
+        "hours_": 0,
+        "mins_": 0,
+        "seconds_": 0
+      }
+    },
+    "detailName_": {
+      "firstName_": "John",
+      "middleName_": "M",
+      "lastName_": "Smith",
+      "prefix_": "Mr"
+    },
+    "homePhoneNumber_": {
+      "areaCode_": "",
+      "value_": "0299998888"
+    },
+    "mobilePhoneNumber_": {
+      "areaCode_": "",
+      "value_": "0422223333"
+    },
+    "dateofBirth_": "05/12/1980",
+    "supplementaryInformation_": {
+      "permanentAustralianResident": true
+    },
+    "identifications": {
+      "driversLicence": {
+        "stateCode": {
+          "identifier_": "VIC"
+        },
+        "number": "123456789",
+        "dateOfExpiry": "01/12/2015",
+        "cardNumber": "11123456789"
+      },
+      "mainPhotoIdType": "L"
+    },
+    "employment_": {
+      "occupation_": {
+        "identifier_": "23:"
+      },
+      "employer_": {
+        "name_": {
+          "name_": "HSBC Bank Australia"
+        }
+      },
+      "type_": {
+        "identifier_": "07540"
+      },
+      "jobTitle_": {
+        "identifier_": "Analyst"
+      }
+    },
+    "expectedAccountActivities": [
+      {
+        "identifier_": "ODW"
+      },
+      {
+        "identifier_": "DAP"
+      },
+      {
+        "identifier_": "CDW"
+      }
+    ],
+    "multiCurrencyAccountCurrencies": [
+      {
+        "type": "M",
+        "currencyValue": {
+          "identifier_": "AUD"
+        }
+      },
+      {
+        "type": "O",
+        "currencyValue": {
+          "identifier_": "HKD"
+        }
+      },
+      {
+        "type": "O",
+        "currencyValue": {
+          "identifier_": "USD"
+        }
+      }
+    ],
+    "vdcRequired": true,
+    "taxFileNumber": "739111222",
+    "otherNationalities": [
+      {
+        "identifier_": "CAN"
+      },
+      {
+        "identifier_": "IRL"
+      }
+    ],
+    "accountBundle": [
+      {
+        "identifier_": "CMG"
+      }
+    ],
+    "taxTFNException": {
+      "identifier_": "Norfolk"
+    },
+    "reasonOfOpenAccount": {
+      "identifier_": "test reason"
+    },
+    "countryOfBirth": {
+      "identifier_": "AUS"
+    },
+    "sourceOfIncome": {
+      "identifier_": "Centrelink payments"
+    },
+    "evidDate": "15/04/2013",
+    "evidResult": "R",
+    "emailList_": [
+      "meghashyam16@gmail.com"
+    ]
+  },
+  "loanProduct_": {
+    "promoId_": "B001",
+    "market_": "027",
+    "interestFreePeriod_": 0.0,
+    "logo": "D1",
+    "miniCreditLimit": 0,
+    "maxCreditLimit": 0
+  },
+  "salesPersonId_": "198.25.658.4",
+  "callPayment_": {
+    "financialInstitute_": "HSBC Bank Australia",
+    "bsbNumber": 342012,
+    "accountNumber_": {
+      "value_": "888999333"
+    }
+  },
+  "agreePrivacyPolicy": true,
+  "agreePCD": true,
+  "agreeConditonsOfUse": true,
+  "agreeInsurancePCD": false,
+  "agreeFSGnPDSP": true,
+  "applicationFirstSubmitDate": "15/04/2013",
+  "lastHubApplicationSequence": 0,
+  "ostName": {
+    "identifier_": "MyOSTName"
+  },
+  "bundle": 1,
+  "applicationNumber_": "TT1111111"
+}

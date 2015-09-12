@@ -1,0 +1,1437 @@
+[
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ACC",
+    "description": "    ",
+    "value": "ACCESS",
+    "sortIndex": 1
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "AL",
+    "description": "    ",
+    "value": "ALLEY",
+    "sortIndex": 2
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "AMB",
+    "description": "    ",
+    "value": "AMBLE",
+    "sortIndex": 3
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ANC",
+    "description": "    ",
+    "value": "ANCHORAGE",
+    "sortIndex": 4
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "APP",
+    "description": "    ",
+    "value": "APPROACH",
+    "sortIndex": 5
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ARC",
+    "description": "    ",
+    "value": "ARCADE",
+    "sortIndex": 6
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ATY",
+    "description": "    ",
+    "value": "ARTERY",
+    "sortIndex": 7
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "AVE",
+    "description": "    ",
+    "value": "AVENUE",
+    "sortIndex": 8
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "AWY",
+    "description": "    ",
+    "value": "ALLEYWAY",
+    "sortIndex": 9
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BAS",
+    "description": "    ",
+    "value": "BASIN",
+    "sortIndex": 10
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BCH",
+    "description": "    ",
+    "value": "BEACH",
+    "sortIndex": 11
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BLK",
+    "description": "    ",
+    "value": "BLOCK",
+    "sortIndex": 12
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BLV",
+    "description": "    ",
+    "value": "BOULEVARD",
+    "sortIndex": 13
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BND",
+    "description": "    ",
+    "value": "BEND",
+    "sortIndex": 14
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BNK",
+    "description": "    ",
+    "value": "BANK",
+    "sortIndex": 15
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BPS",
+    "description": "    ",
+    "value": "BYPASS",
+    "sortIndex": 16
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BR",
+    "description": "    ",
+    "value": "BRACE",
+    "sortIndex": 17
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BRA",
+    "description": "    ",
+    "value": "BRAE",
+    "sortIndex": 18
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BRG",
+    "description": "    ",
+    "value": "BRIDGE",
+    "sortIndex": 19
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BRK",
+    "description": "    ",
+    "value": "BREAK",
+    "sortIndex": 20
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BRW",
+    "description": "    ",
+    "value": "BROW",
+    "sortIndex": 21
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BWL",
+    "description": "    ",
+    "value": "BOWL",
+    "sortIndex": 22
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BWY",
+    "description": "    ",
+    "value": "BROADWAY",
+    "sortIndex": 23
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "BYW",
+    "description": "    ",
+    "value": "BYWAY",
+    "sortIndex": 24
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CCT",
+    "description": "    ",
+    "value": "CIRCUIT",
+    "sortIndex": 25
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CDS",
+    "description": "    ",
+    "value": "CUL-DE-SAC",
+    "sortIndex": 26
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CH",
+    "description": "    ",
+    "value": "CHASE",
+    "sortIndex": 27
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CIR",
+    "description": "    ",
+    "value": "CIRCLE",
+    "sortIndex": 28
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CL",
+    "description": "    ",
+    "value": "CLOSE",
+    "sortIndex": 29
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CLD",
+    "description": "    ",
+    "value": "COLONNADE",
+    "sortIndex": 30
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CLT",
+    "description": "    ",
+    "value": "CIRCLET",
+    "sortIndex": 31
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CMN",
+    "description": "    ",
+    "value": "COMMON",
+    "sortIndex": 32
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CNC",
+    "description": "    ",
+    "value": "CONCOURSE",
+    "sortIndex": 33
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CNR",
+    "description": "    ",
+    "value": "CORNER",
+    "sortIndex": 34
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CPS",
+    "description": "    ",
+    "value": "COPSE",
+    "sortIndex": 35
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CRC",
+    "description": "    ",
+    "value": "CIRCUS",
+    "sortIndex": 36
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CRD",
+    "description": "    ",
+    "value": "CROSSROAD",
+    "sortIndex": 37
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CRS",
+    "description": "    ",
+    "value": "CRESCENT",
+    "sortIndex": 38
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CRT",
+    "description": "    ",
+    "value": "COURT",
+    "sortIndex": 39
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CRW",
+    "description": "    ",
+    "value": "CROSSWAY",
+    "sortIndex": 40
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CSG",
+    "description": "    ",
+    "value": "CROSSING",
+    "sortIndex": 41
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CSO",
+    "description": "    ",
+    "value": "CORSO",
+    "sortIndex": 42
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CSW",
+    "description": "    ",
+    "value": "CRUISEWAY",
+    "sortIndex": 43
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CT",
+    "description": "    ",
+    "value": "COURT",
+    "sortIndex": 44
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CTR",
+    "description": "    ",
+    "value": "CENTRE",
+    "sortIndex": 45
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CTW",
+    "description": "    ",
+    "value": "CENTREWAY",
+    "sortIndex": 46
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CUT",
+    "description": "    ",
+    "value": "CUTTING",
+    "sortIndex": 47
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CVE",
+    "description": "    ",
+    "value": "COVE",
+    "sortIndex": 48
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CWY",
+    "description": "    ",
+    "value": "CAUSEWAY",
+    "sortIndex": 49
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "CYD",
+    "description": "    ",
+    "value": "COURTYARD",
+    "sortIndex": 50
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "DAL",
+    "description": "    ",
+    "value": "DALE",
+    "sortIndex": 51
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "DEL",
+    "description": "    ",
+    "value": "DELL",
+    "sortIndex": 52
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "DIP",
+    "description": "    ",
+    "value": "DIP",
+    "sortIndex": 53
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "DR",
+    "description": "    ",
+    "value": "DRIVE",
+    "sortIndex": 54
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "DRY",
+    "description": "    ",
+    "value": "DRIVEWAY",
+    "sortIndex": 55
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "DTR",
+    "description": "    ",
+    "value": "DISTRIBUTOR",
+    "sortIndex": 56
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "DVN",
+    "description": "    ",
+    "value": "DEVIATION",
+    "sortIndex": 57
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "EGE",
+    "description": "    ",
+    "value": "EDGE",
+    "sortIndex": 58
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ELB",
+    "description": "    ",
+    "value": "ELBOW",
+    "sortIndex": 59
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "END",
+    "description": "    ",
+    "value": "END",
+    "sortIndex": 60
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ENT",
+    "description": "    ",
+    "value": "ENTRANCE",
+    "sortIndex": 61
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ESP",
+    "description": "    ",
+    "value": "ESPLANADE",
+    "sortIndex": 62
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "EST",
+    "description": "    ",
+    "value": "ESTATE",
+    "sortIndex": 63
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "EXP",
+    "description": "    ",
+    "value": "EXPRESSWAY",
+    "sortIndex": 64
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "EXT",
+    "description": "    ",
+    "value": "EXTENSION",
+    "sortIndex": 65
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FAY",
+    "description": "    ",
+    "value": "FAIRWAY",
+    "sortIndex": 66
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FLT",
+    "description": "    ",
+    "value": "FLAT",
+    "sortIndex": 67
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FLW",
+    "description": "    ",
+    "value": "FOLLOW",
+    "sortIndex": 68
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FMN",
+    "description": "    ",
+    "value": "FORMATION",
+    "sortIndex": 69
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FR",
+    "description": "    ",
+    "value": "FRONTAGE",
+    "sortIndex": 70
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FRT",
+    "description": "    ",
+    "value": "FRONT",
+    "sortIndex": 71
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FSR",
+    "description": "    ",
+    "value": "FORESHORE",
+    "sortIndex": 72
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FTK",
+    "description": "    ",
+    "value": "FIRETRACK",
+    "sortIndex": 73
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FTL",
+    "description": "    ",
+    "value": "FIRETRAIL",
+    "sortIndex": 74
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FTW",
+    "description": "    ",
+    "value": "FOOTWAY",
+    "sortIndex": 75
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "FWY",
+    "description": "    ",
+    "value": "FREEWAY",
+    "sortIndex": 76
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GAP",
+    "description": "    ",
+    "value": "GAP",
+    "sortIndex": 77
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GDN",
+    "description": "    ",
+    "value": "GARDEN",
+    "sortIndex": 78
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GDS",
+    "description": "    ",
+    "value": "GARDENS",
+    "sortIndex": 79
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GL",
+    "description": "    ",
+    "value": "GLADE",
+    "sortIndex": 80
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GLN",
+    "description": "    ",
+    "value": "GLEN",
+    "sortIndex": 81
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GLY",
+    "description": "    ",
+    "value": "GULLY",
+    "sortIndex": 82
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GRA",
+    "description": "    ",
+    "value": "GRANGE",
+    "sortIndex": 83
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GRD",
+    "description": "    ",
+    "value": "GROUND",
+    "sortIndex": 84
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GRN",
+    "description": "    ",
+    "value": "GREEN",
+    "sortIndex": 85
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GTE",
+    "description": "    ",
+    "value": "GATE",
+    "sortIndex": 86
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GTS",
+    "description": "    ",
+    "value": "GATES",
+    "sortIndex": 87
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "GVE",
+    "description": "    ",
+    "value": "GROVE",
+    "sortIndex": 88
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "HIL",
+    "description": "    ",
+    "value": "HILL",
+    "sortIndex": 89
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "HRD",
+    "description": "    ",
+    "value": "HIGHROAD",
+    "sortIndex": 90
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "HTS",
+    "description": "    ",
+    "value": "HEIGHTS",
+    "sortIndex": 91
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "HWY",
+    "description": "    ",
+    "value": "HIGHWAY",
+    "sortIndex": 92
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ITC",
+    "description": "    ",
+    "value": "INTERCHANGE",
+    "sortIndex": 93
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ITS",
+    "description": "    ",
+    "value": "INTERSECTION",
+    "sortIndex": 94
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "JN",
+    "description": "    ",
+    "value": "JUNCTION",
+    "sortIndex": 95
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "KEY",
+    "description": "    ",
+    "value": "KEY",
+    "sortIndex": 96
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LA",
+    "description": "    ",
+    "value": "LANE",
+    "sortIndex": 97
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LDG",
+    "description": "    ",
+    "value": "LANDING",
+    "sortIndex": 98
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LEE",
+    "description": "    ",
+    "value": "LEES",
+    "sortIndex": 99
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LIN",
+    "description": "    ",
+    "value": "LINE",
+    "sortIndex": 100
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LK",
+    "description": "    ",
+    "value": "LINK",
+    "sortIndex": 101
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LKO",
+    "description": "    ",
+    "value": "LOOKOUT",
+    "sortIndex": 102
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LOW",
+    "description": "    ",
+    "value": "LOWER",
+    "sortIndex": 103
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LP",
+    "description": "    ",
+    "value": "LOOP",
+    "sortIndex": 104
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LT",
+    "description": "    ",
+    "value": "LITTLE",
+    "sortIndex": 105
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "LWY",
+    "description": "    ",
+    "value": "LANEWAY",
+    "sortIndex": 106
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "MAL",
+    "description": "    ",
+    "value": "MALL",
+    "sortIndex": 107
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "MDR",
+    "description": "    ",
+    "value": "MEANDER",
+    "sortIndex": 108
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "MEW",
+    "description": "    ",
+    "value": "MEW",
+    "sortIndex": 109
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ML",
+    "description": "    ",
+    "value": "MILE",
+    "sortIndex": 110
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "MT",
+    "description": "    ",
+    "value": "MOUNT",
+    "sortIndex": 111
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "MWS",
+    "description": "    ",
+    "value": "MEWS",
+    "sortIndex": 112
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "MWY",
+    "description": "    ",
+    "value": "MOTORWAY",
+    "sortIndex": 113
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "NK",
+    "description": "    ",
+    "value": "NOOK",
+    "sortIndex": 114
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "OUT",
+    "description": "    ",
+    "value": "OUTLOOK",
+    "sortIndex": 115
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PDE",
+    "description": "    ",
+    "value": "PARADE",
+    "sortIndex": 116
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PKL",
+    "description": "    ",
+    "value": "PARKLANDS",
+    "sortIndex": 117
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PKT",
+    "description": "    ",
+    "value": "POCKET",
+    "sortIndex": 118
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PKW",
+    "description": "    ",
+    "value": "PARKWAY",
+    "sortIndex": 119
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PL",
+    "description": "    ",
+    "value": "PLACE",
+    "sortIndex": 120
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PLZ",
+    "description": "    ",
+    "value": "PLAZA",
+    "sortIndex": 121
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PNT",
+    "description": "    ",
+    "value": "POINT",
+    "sortIndex": 122
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PR",
+    "description": "    ",
+    "value": "PIER",
+    "sortIndex": 123
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PRK",
+    "description": "    ",
+    "value": "PARK",
+    "sortIndex": 124
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PRM",
+    "description": "    ",
+    "value": "PROMENADE",
+    "sortIndex": 125
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PRT",
+    "description": "    ",
+    "value": "PART",
+    "sortIndex": 126
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PSS",
+    "description": "    ",
+    "value": "PASS",
+    "sortIndex": 127
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PT",
+    "description": "    ",
+    "value": "PORT",
+    "sortIndex": 128
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PTH",
+    "description": "    ",
+    "value": "PATH",
+    "sortIndex": 129
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PTU",
+    "description": "    ",
+    "value": "PLATEAU",
+    "sortIndex": 130
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PWY",
+    "description": "    ",
+    "value": "PARKWAY",
+    "sortIndex": 131
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "PZA",
+    "description": "    ",
+    "value": "PIAZZA",
+    "sortIndex": 132
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "QD",
+    "description": "    ",
+    "value": "QUADRANT",
+    "sortIndex": 133
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "QDG",
+    "description": "    ",
+    "value": "QUADRANGLE",
+    "sortIndex": 134
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "QUD",
+    "description": "    ",
+    "value": "QUAD",
+    "sortIndex": 135
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "QY",
+    "description": "    ",
+    "value": "QUAY",
+    "sortIndex": 136
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "QYS",
+    "description": "    ",
+    "value": "QUAYS",
+    "sortIndex": 137
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RA",
+    "description": "    ",
+    "value": "RAMBLE",
+    "sortIndex": 138
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RBL",
+    "description": "    ",
+    "value": "ROSEBOWL",
+    "sortIndex": 139
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RCH",
+    "description": "    ",
+    "value": "REACH",
+    "sortIndex": 140
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RD",
+    "description": "    ",
+    "value": "ROAD",
+    "sortIndex": 141
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RDE",
+    "description": "    ",
+    "value": "RONDE",
+    "sortIndex": 142
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RDG",
+    "description": "    ",
+    "value": "RIDGE",
+    "sortIndex": 143
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RDS",
+    "description": "    ",
+    "value": "ROADS",
+    "sortIndex": 144
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RDW",
+    "description": "    ",
+    "value": "RIDGEWAY",
+    "sortIndex": 145
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RDY",
+    "description": "    ",
+    "value": "ROADWAY",
+    "sortIndex": 146
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RES",
+    "description": "    ",
+    "value": "RESERVE",
+    "sortIndex": 147
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RGE",
+    "description": "    ",
+    "value": "RANGE",
+    "sortIndex": 148
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RI",
+    "description": "    ",
+    "value": "RISE",
+    "sortIndex": 149
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RID",
+    "description": "    ",
+    "value": "RIDE",
+    "sortIndex": 150
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RMP",
+    "description": "    ",
+    "value": "RAMP",
+    "sortIndex": 151
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RND",
+    "description": "    ",
+    "value": "ROUND",
+    "sortIndex": 152
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RNG",
+    "description": "    ",
+    "value": "RING",
+    "sortIndex": 153
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ROW",
+    "description": "    ",
+    "value": "ROW",
+    "sortIndex": 154
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RSD",
+    "description": "    ",
+    "value": "ROADSIDE",
+    "sortIndex": 155
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RST",
+    "description": "    ",
+    "value": "REST",
+    "sortIndex": 156
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RT",
+    "description": "    ",
+    "value": "RETREAT",
+    "sortIndex": 157
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RTE",
+    "description": "    ",
+    "value": "ROUTE",
+    "sortIndex": 158
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RTW",
+    "description": "    ",
+    "value": "RIGHTOFWAY",
+    "sortIndex": 159
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RTY",
+    "description": "    ",
+    "value": "ROTARY",
+    "sortIndex": 160
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RUE",
+    "description": "    ",
+    "value": "RUE",
+    "sortIndex": 161
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RUN",
+    "description": "    ",
+    "value": "RUN",
+    "sortIndex": 162
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RVA",
+    "description": "    ",
+    "value": "RIVIERA",
+    "sortIndex": 163
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RVR",
+    "description": "    ",
+    "value": "RIVER",
+    "sortIndex": 164
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "RVW",
+    "description": "    ",
+    "value": "RIVERWAY",
+    "sortIndex": 165
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "SDG",
+    "description": "    ",
+    "value": "SIDING",
+    "sortIndex": 166
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "SHW",
+    "description": "    ",
+    "value": "STATEHIGHWAY",
+    "sortIndex": 167
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "SLP",
+    "description": "    ",
+    "value": "SLOPE",
+    "sortIndex": 168
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "SND",
+    "description": "    ",
+    "value": "SOUND",
+    "sortIndex": 169
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "SPR",
+    "description": "    ",
+    "value": "SPUR",
+    "sortIndex": 170
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "SQ",
+    "description": "    ",
+    "value": "SQUARE",
+    "sortIndex": 171
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "ST",
+    "description": "    ",
+    "value": "STREET",
+    "sortIndex": 172
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "STA",
+    "description": "    ",
+    "value": "STAIRS",
+    "sortIndex": 173
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "STI",
+    "description": "    ",
+    "value": "STRIP",
+    "sortIndex": 174
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "STP",
+    "description": "    ",
+    "value": "STEPS",
+    "sortIndex": 175
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "STR",
+    "description": "    ",
+    "value": "STREET",
+    "sortIndex": 176
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "STS",
+    "description": "    ",
+    "value": "STREETS",
+    "sortIndex": 177
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "SWY",
+    "description": "    ",
+    "value": "SERVICEWAY",
+    "sortIndex": 178
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TCE",
+    "description": "    ",
+    "value": "TERRACE",
+    "sortIndex": 179
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "THF",
+    "description": "    ",
+    "value": "THOROUGHFARE",
+    "sortIndex": 180
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TKW",
+    "description": "    ",
+    "value": "TRUNKWAY",
+    "sortIndex": 181
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TOP",
+    "description": "    ",
+    "value": "TOP",
+    "sortIndex": 182
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TOR",
+    "description": "    ",
+    "value": "TOR",
+    "sortIndex": 183
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TR",
+    "description": "    ",
+    "value": "TRACK",
+    "sortIndex": 184
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TRI",
+    "description": "    ",
+    "value": "TRIANGLE",
+    "sortIndex": 185
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TRL",
+    "description": "    ",
+    "value": "TRAIL",
+    "sortIndex": 186
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TRN",
+    "description": "    ",
+    "value": "TARNICEWAY",
+    "sortIndex": 187
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TRR",
+    "description": "    ",
+    "value": "TRAILER",
+    "sortIndex": 188
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TUR",
+    "description": "    ",
+    "value": "TURN",
+    "sortIndex": 189
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TWR",
+    "description": "    ",
+    "value": "TOWERS",
+    "sortIndex": 190
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "TWY",
+    "description": "    ",
+    "value": "TOLLWAY",
+    "sortIndex": 191
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "UNP",
+    "description": "    ",
+    "value": "UNDERPASS",
+    "sortIndex": 192
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "UPR",
+    "description": "    ",
+    "value": "UPPER",
+    "sortIndex": 193
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "VAL",
+    "description": "    ",
+    "value": "VALE",
+    "sortIndex": 194
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "VDT",
+    "description": "    ",
+    "value": "VIADUCT",
+    "sortIndex": 195
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "VLA",
+    "description": "    ",
+    "value": "VILLA",
+    "sortIndex": 196
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "VST",
+    "description": "    ",
+    "value": "VISTA",
+    "sortIndex": 197
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "VW",
+    "description": "    ",
+    "value": "VIEW",
+    "sortIndex": 198
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "WAY",
+    "description": "    ",
+    "value": "WAY",
+    "sortIndex": 199
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "WD",
+    "description": "    ",
+    "value": "WADE",
+    "sortIndex": 200
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "WF",
+    "description": "    ",
+    "value": "WHARF",
+    "sortIndex": 201
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "WK",
+    "description": "    ",
+    "value": "WALK",
+    "sortIndex": 202
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "WKY",
+    "description": "    ",
+    "value": "WALKWAY",
+    "sortIndex": 203
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "WND",
+    "description": "    ",
+    "value": "WYND",
+    "sortIndex": 204
+  },
+  {
+    "category": "MULTIAPP_STREET_TYPES",
+    "code": "YRD",
+    "description": "    ",
+    "value": "YARD",
+    "sortIndex": 205
+  }
+]

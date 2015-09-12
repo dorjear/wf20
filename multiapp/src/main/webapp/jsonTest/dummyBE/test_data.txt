@@ -1,0 +1,21 @@
+
+HUB Decision -- approved
+================================
+{
+    "applicationnumber": "JS22351890123",
+    "applicationstatus": "A"
+}
+
+HUB Decision -- not found
+================================
+{
+  "join1errormsg": "Application Number/Sequence Number not found",
+  "applicationstatus": ""
+}
+
+HUB Decision -- duplicated sequence number or application number
+=================================================================
+{
+  "join1errormsg": "Duplicate Application number and Sequence number is found",
+  "applicationstatus": ""
+}

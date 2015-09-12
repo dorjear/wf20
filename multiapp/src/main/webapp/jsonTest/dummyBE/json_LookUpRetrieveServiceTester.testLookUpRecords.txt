@@ -1,0 +1,5814 @@
+{
+  "MULTIAPP_TFN_EXEMPTIONS": [
+    {
+      "category": "MULTIAPP_TFN_EXEMPTIONS",
+      "code": "No TFN exception",
+      "description": "    ",
+      "value": "No TFN exception",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_TFN_EXEMPTIONS",
+      "code": "Pensioner",
+      "description": "    ",
+      "value": "Pensioner",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_TFN_EXEMPTIONS",
+      "code": "Receive social security pension/benefit",
+      "description": "    ",
+      "value": "Receive social security pension/benefit",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_TFN_EXEMPTIONS",
+      "code": "Income tax return not required",
+      "description": "    ",
+      "value": "Income tax return no required",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_TFN_EXEMPTIONS",
+      "code": "Business provides consumer/business finance",
+      "description": "    ",
+      "value": "Business provides consumer/business finance",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_TFN_EXEMPTIONS",
+      "code": "Norfolk Island resident",
+      "description": "    ",
+      "value": "Norfolk Island resident",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_TFN_EXEMPTIONS",
+      "code": "Non-resident",
+      "description": "    ",
+      "value": "Non-resident",
+      "sortIndex": 7
+    }
+  ],
+  "MULTIAPP_IDS": [
+    {
+      "category": "MULTIAPP_IDS",
+      "code": "DL",
+      "value": "Australian drivers licence",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_IDS",
+      "code": "AP",
+      "value": "Australian passport",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_IDS",
+      "code": "IP",
+      "value": "International passport",
+      "sortIndex": 3
+    }
+  ],
+  "MULTIAPP_COUNTRY": [
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "IND",
+      "description": "N",
+      "value": "INDIA",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NZL",
+      "description": "N",
+      "value": "NEW ZEALAND",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GBR",
+      "description": "N",
+      "value": "UNITED KINGDOM",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CHN",
+      "description": "N",
+      "value": "CHINA",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MYS",
+      "description": "N",
+      "value": "MALAYSIA",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PHL",
+      "description": "N",
+      "value": "PHILIPPINES",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "AFG",
+      "description": "Y",
+      "value": "AFGHANISTAN",
+      "sortIndex": 8
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ALB",
+      "description": "N",
+      "value": "ALBANIA",
+      "sortIndex": 9
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "DZA",
+      "description": "N",
+      "value": "ALGERIA",
+      "sortIndex": 10
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ASM",
+      "description": "N",
+      "value": "AMERICAN SAMOA",
+      "sortIndex": 11
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "AND",
+      "description": "N",
+      "value": "ANDORRA",
+      "sortIndex": 12
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "AGO",
+      "description": "N",
+      "value": "ANGOLA",
+      "sortIndex": 13
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "AIA",
+      "description": "N",
+      "value": "ANGUILLA",
+      "sortIndex": 14
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ATA",
+      "description": "N",
+      "value": "ANTARCTICA",
+      "sortIndex": 15
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ATG",
+      "description": "N",
+      "value": "ANTIGUA AND BARBUDA",
+      "sortIndex": 16
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ARG",
+      "description": "N",
+      "value": "ARGENTINA",
+      "sortIndex": 17
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ARM",
+      "description": "N",
+      "value": "ARMENIA",
+      "sortIndex": 18
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ABW",
+      "description": "N",
+      "value": "ARUBA",
+      "sortIndex": 19
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "AUT",
+      "description": "N",
+      "value": "AUSTRIA",
+      "sortIndex": 20
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "AZE",
+      "description": "N",
+      "value": "AZERBAIJAN",
+      "sortIndex": 21
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BHS",
+      "description": "N",
+      "value": "BAHAMAS",
+      "sortIndex": 22
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BHR",
+      "description": "N",
+      "value": "BAHRAIN",
+      "sortIndex": 23
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BGD",
+      "description": "N",
+      "value": "BANGLADESH",
+      "sortIndex": 24
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BRB",
+      "description": "N",
+      "value": "BARBADOS",
+      "sortIndex": 25
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BLR",
+      "description": "N",
+      "value": "BELARUS",
+      "sortIndex": 26
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BEL",
+      "description": "N",
+      "value": "BELGIUM",
+      "sortIndex": 27
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BLZ",
+      "description": "N",
+      "value": "BELIZE",
+      "sortIndex": 28
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BEN",
+      "description": "N",
+      "value": "BENIN",
+      "sortIndex": 29
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BMU",
+      "description": "N",
+      "value": "BERMUDA",
+      "sortIndex": 30
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BTN",
+      "description": "N",
+      "value": "BHUTAN",
+      "sortIndex": 31
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BOL",
+      "description": "N",
+      "value": "BOLIVIA, PLURINATIONAL STATE OF",
+      "sortIndex": 32
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BES",
+      "description": "N",
+      "value": "BONAIRE, SAINT EUSATIUS AND SABA",
+      "sortIndex": 33
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BIH",
+      "description": "N",
+      "value": "BOSNIA AND HERZEGOVINA",
+      "sortIndex": 34
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BWA",
+      "description": "N",
+      "value": "BOTSWANA",
+      "sortIndex": 35
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BVT",
+      "description": "N",
+      "value": "BOUVET IS",
+      "sortIndex": 36
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BRA",
+      "description": "N",
+      "value": "BRAZIL",
+      "sortIndex": 37
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "IOT",
+      "description": "N",
+      "value": "BRITISH INDIAN OCEAN TERRITORY",
+      "sortIndex": 38
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "VGB",
+      "description": "N",
+      "value": "BRITISH VIRGIN IS",
+      "sortIndex": 39
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "AUS",
+      "description": "N",
+      "value": "AUSTRALIA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BRN",
+      "description": "N",
+      "value": "BRUNEI DARUSSALAM",
+      "sortIndex": 40
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BGR",
+      "description": "N",
+      "value": "BULGARIA",
+      "sortIndex": 41
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BFA",
+      "description": "N",
+      "value": "BURKINA FASO",
+      "sortIndex": 42
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BDI",
+      "description": "N",
+      "value": "BURUNDI",
+      "sortIndex": 43
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "KHM",
+      "description": "N",
+      "value": "CAMBODIA",
+      "sortIndex": 44
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CMR",
+      "description": "N",
+      "value": "CAMEROON UNITED REPUBLIC OF",
+      "sortIndex": 45
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CAN",
+      "description": "N",
+      "value": "CANADA",
+      "sortIndex": 46
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CPV",
+      "description": "N",
+      "value": "CAPE VERDE IS",
+      "sortIndex": 47
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CYM",
+      "description": "N",
+      "value": "CAYMAN IS",
+      "sortIndex": 48
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CAF",
+      "description": "N",
+      "value": "CENTRAL AFRICIAN REPUBLIC",
+      "sortIndex": 49
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TCD",
+      "description": "N",
+      "value": "CHAD",
+      "sortIndex": 50
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CHL",
+      "description": "N",
+      "value": "CHILE",
+      "sortIndex": 51
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CXR",
+      "description": "N",
+      "value": "CHRISTMAS IS",
+      "sortIndex": 52
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CCK",
+      "description": "N",
+      "value": "COCOS IS (KEELING)",
+      "sortIndex": 53
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "COL",
+      "description": "N",
+      "value": "COLUMBIA",
+      "sortIndex": 54
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "COM",
+      "description": "N",
+      "value": "COMOROS",
+      "sortIndex": 55
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "COG",
+      "description": "N",
+      "value": "CONGO",
+      "sortIndex": 56
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "COK",
+      "description": "N",
+      "value": "COOK IS",
+      "sortIndex": 57
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CRI",
+      "description": "N",
+      "value": "COSTA RICA",
+      "sortIndex": 58
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CIV",
+      "description": "N",
+      "value": "COTE D\u0027IVOIRE (IVORY COAST)",
+      "sortIndex": 59
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "HRV",
+      "description": "N",
+      "value": "CROATIA",
+      "sortIndex": 60
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CUB",
+      "description": "N",
+      "value": "CUBA",
+      "sortIndex": 61
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CUW",
+      "description": "N",
+      "value": "CURACAO",
+      "sortIndex": 62
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CYP",
+      "description": "N",
+      "value": "CYPRUS",
+      "sortIndex": 63
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CZE",
+      "description": "N",
+      "value": "CZECH REPUBLIC",
+      "sortIndex": 64
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ZAR",
+      "description": "N",
+      "value": "DEMOCRATIC REPUBLIC OF THE CONGO",
+      "sortIndex": 65
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "DNK",
+      "description": "N",
+      "value": "DENMARK",
+      "sortIndex": 66
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "DJI",
+      "description": "N",
+      "value": "DJIBOUTI",
+      "sortIndex": 67
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "DMA",
+      "description": "N",
+      "value": "DOMINICA",
+      "sortIndex": 68
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "DOM",
+      "description": "N",
+      "value": "DOMINICAN REP",
+      "sortIndex": 69
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ECU",
+      "description": "N",
+      "value": "ECUADOR",
+      "sortIndex": 70
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "EGY",
+      "description": "N",
+      "value": "EGYPT",
+      "sortIndex": 71
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SLV",
+      "description": "N",
+      "value": "EL SALVADOR",
+      "sortIndex": 72
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GNQ",
+      "description": "N",
+      "value": "EQUATORIAL GUINEA",
+      "sortIndex": 73
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ERI",
+      "description": "N",
+      "value": "ERITREA",
+      "sortIndex": 74
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "EST",
+      "description": "N",
+      "value": "ESTONIA",
+      "sortIndex": 75
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ETH",
+      "description": "N",
+      "value": "ETHIOPIA",
+      "sortIndex": 76
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "FRO",
+      "description": "N",
+      "value": "FAEROE IS",
+      "sortIndex": 77
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "FLK",
+      "description": "N",
+      "value": "FALKLAND IS (MALVINAS)",
+      "sortIndex": 78
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "FJI",
+      "description": "N",
+      "value": "FIJI",
+      "sortIndex": 79
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "FIN",
+      "description": "N",
+      "value": "FINLAND",
+      "sortIndex": 80
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "FRA",
+      "description": "N",
+      "value": "FRANCE",
+      "sortIndex": 81
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GUF",
+      "description": "N",
+      "value": "FRENCH GUIANA",
+      "sortIndex": 82
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PYF",
+      "description": "N",
+      "value": "FRENCH POLYNESIA",
+      "sortIndex": 83
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ATF",
+      "description": "N",
+      "value": "FRENCH SOUTHERN TERRITORIES",
+      "sortIndex": 84
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GAB",
+      "description": "N",
+      "value": "GABON",
+      "sortIndex": 85
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GMB",
+      "description": "N",
+      "value": "GAMBIA",
+      "sortIndex": 86
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GEO",
+      "description": "N",
+      "value": "GEORGIA",
+      "sortIndex": 87
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "DEU",
+      "description": "N",
+      "value": "GERMANY",
+      "sortIndex": 88
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GHA",
+      "description": "N",
+      "value": "GHANA",
+      "sortIndex": 89
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GIB",
+      "description": "N",
+      "value": "GIBRALTAR",
+      "sortIndex": 90
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GRC",
+      "description": "N",
+      "value": "GREECE",
+      "sortIndex": 91
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GRL",
+      "description": "N",
+      "value": "GREENLAND",
+      "sortIndex": 92
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GRD",
+      "description": "N",
+      "value": "GRENADA",
+      "sortIndex": 93
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GLP",
+      "description": "N",
+      "value": "GUADELOUPE",
+      "sortIndex": 94
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GUM",
+      "description": "N",
+      "value": "GUAM",
+      "sortIndex": 95
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GTM",
+      "description": "N",
+      "value": "GUATEMALA",
+      "sortIndex": 96
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GIN",
+      "description": "N",
+      "value": "GUINEA",
+      "sortIndex": 97
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GNB",
+      "description": "N",
+      "value": "GUINEA-BISSAU",
+      "sortIndex": 98
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "GUY",
+      "description": "N",
+      "value": "GUYANA",
+      "sortIndex": 99
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "HTI",
+      "description": "N",
+      "value": "HAITI",
+      "sortIndex": 100
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "HMD",
+      "description": "N",
+      "value": "HEARD AND MCDONALD IS",
+      "sortIndex": 101
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "HND",
+      "description": "N",
+      "value": "HONDURAS",
+      "sortIndex": 102
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "HKG",
+      "description": "N",
+      "value": "HONG KONG",
+      "sortIndex": 103
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "HUN",
+      "description": "N",
+      "value": "HUNGARY",
+      "sortIndex": 104
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ISL",
+      "description": "N",
+      "value": "ICELAND",
+      "sortIndex": 105
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "IDN",
+      "description": "N",
+      "value": "INDONESIA",
+      "sortIndex": 106
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "IRN",
+      "description": "Y",
+      "value": "IRAN",
+      "sortIndex": 107
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "IRQ",
+      "description": "Y",
+      "value": "IRAQ",
+      "sortIndex": 108
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "IRL",
+      "description": "N",
+      "value": "IRELAND",
+      "sortIndex": 109
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ISR",
+      "description": "N",
+      "value": "ISRAEL",
+      "sortIndex": 110
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ITA",
+      "description": "N",
+      "value": "ITALY",
+      "sortIndex": 111
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "JAM",
+      "description": "N",
+      "value": "JAMAICA",
+      "sortIndex": 112
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "JPN",
+      "description": "N",
+      "value": "JAPAN",
+      "sortIndex": 113
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "JOR",
+      "description": "N",
+      "value": "JORDAN",
+      "sortIndex": 114
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "KAZ",
+      "description": "N",
+      "value": "KAZAKHSTAN",
+      "sortIndex": 115
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "KEN",
+      "description": "N",
+      "value": "KENYA",
+      "sortIndex": 116
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "KIR",
+      "description": "N",
+      "value": "KIRIBATI",
+      "sortIndex": 117
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PRK",
+      "description": "N",
+      "value": "KOREA,DEMOCRATIC PEOPLE\u0027S REPUBLIC",
+      "sortIndex": 118
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "KOR",
+      "description": "N",
+      "value": "KOREA,REPUBLIC OF",
+      "sortIndex": 119
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "KWT",
+      "description": "N",
+      "value": "KUWAIT",
+      "sortIndex": 120
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "KGZ",
+      "description": "N",
+      "value": "KYRGYZSTAN",
+      "sortIndex": 121
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LAO",
+      "description": "N",
+      "value": "LAO PEOPLE\u0027S DEMOCRATIC REPUBLIC",
+      "sortIndex": 122
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LVA",
+      "description": "N",
+      "value": "LATVIA",
+      "sortIndex": 123
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LBN",
+      "description": "N",
+      "value": "LEBANON",
+      "sortIndex": 124
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LSO",
+      "description": "N",
+      "value": "LESOTHO",
+      "sortIndex": 125
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LBR",
+      "description": "N",
+      "value": "LIBERIA",
+      "sortIndex": 126
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LBY",
+      "description": "Y",
+      "value": "LIBYAN ARAB JAMAHIRIYA",
+      "sortIndex": 127
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LIE",
+      "description": "N",
+      "value": "LIECHTENSTEIN",
+      "sortIndex": 128
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LTU",
+      "description": "N",
+      "value": "LITHUANIA",
+      "sortIndex": 129
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LUX",
+      "description": "N",
+      "value": "LUXEMBOURG",
+      "sortIndex": 130
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MAC",
+      "description": "N",
+      "value": "MACAO",
+      "sortIndex": 131
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MKD",
+      "description": "N",
+      "value": "MACEDONIA",
+      "sortIndex": 132
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MDG",
+      "description": "N",
+      "value": "MADAGASCAR",
+      "sortIndex": 133
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MWI",
+      "description": "N",
+      "value": "MALAWI",
+      "sortIndex": 134
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MDV",
+      "description": "N",
+      "value": "MALDIVES",
+      "sortIndex": 135
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MLI",
+      "description": "N",
+      "value": "MALI",
+      "sortIndex": 136
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MLT",
+      "description": "N",
+      "value": "MALTA",
+      "sortIndex": 137
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MHL",
+      "description": "N",
+      "value": "MARSHALL IS",
+      "sortIndex": 138
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MTQ",
+      "description": "N",
+      "value": "MARTINIQUE",
+      "sortIndex": 139
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MRT",
+      "description": "N",
+      "value": "MAURITANIA",
+      "sortIndex": 140
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MUS",
+      "description": "N",
+      "value": "MAURITIUS",
+      "sortIndex": 141
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MYT",
+      "description": "N",
+      "value": "MAYOTTE",
+      "sortIndex": 142
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MEX",
+      "description": "N",
+      "value": "MEXICO",
+      "sortIndex": 143
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "FSM",
+      "description": "N",
+      "value": "MICRONESIA, FEDERATED STATES OF",
+      "sortIndex": 144
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MDA",
+      "description": "N",
+      "value": "MOLDOVA REPUBLIC OF",
+      "sortIndex": 145
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MCO",
+      "description": "N",
+      "value": "MONACO",
+      "sortIndex": 146
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MNG",
+      "description": "N",
+      "value": "MONGOLIA",
+      "sortIndex": 147
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MNE",
+      "description": "N",
+      "value": "MONTENEGRO",
+      "sortIndex": 148
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MSR",
+      "description": "N",
+      "value": "MONTSERRAT",
+      "sortIndex": 149
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MAR",
+      "description": "N",
+      "value": "MOROCCO",
+      "sortIndex": 150
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MOZ",
+      "description": "N",
+      "value": "MOZAMBIQUE",
+      "sortIndex": 151
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MMR",
+      "description": "N",
+      "value": "MYANMAR",
+      "sortIndex": 152
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NAM",
+      "description": "N",
+      "value": "NAMIBIA",
+      "sortIndex": 153
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NRU",
+      "description": "N",
+      "value": "NAURU",
+      "sortIndex": 154
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NPL",
+      "description": "N",
+      "value": "NEPAL",
+      "sortIndex": 155
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NLD",
+      "description": "N",
+      "value": "NETHERLANDS",
+      "sortIndex": 156
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ANT",
+      "description": "N",
+      "value": "NETHERLANDS ANTILLES",
+      "sortIndex": 157
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NCL",
+      "description": "N",
+      "value": "NEW CALEDONIA",
+      "sortIndex": 158
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NIC",
+      "description": "N",
+      "value": "NICARAGUA",
+      "sortIndex": 159
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NER",
+      "description": "N",
+      "value": "NIGER",
+      "sortIndex": 160
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NGA",
+      "description": "N",
+      "value": "NIGERIA",
+      "sortIndex": 161
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NIU",
+      "description": "N",
+      "value": "NIUE",
+      "sortIndex": 162
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NFK",
+      "description": "N",
+      "value": "NORFOLK IS",
+      "sortIndex": 163
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MNP",
+      "description": "N",
+      "value": "NORTHERN MARIANA IS",
+      "sortIndex": 164
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "NOR",
+      "description": "N",
+      "value": "NORWAY",
+      "sortIndex": 165
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "OMN",
+      "description": "N",
+      "value": "OMAN",
+      "sortIndex": 166
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PAK",
+      "description": "Y",
+      "value": "PAKISTAN",
+      "sortIndex": 167
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PLW",
+      "description": "Y",
+      "value": "PALAU",
+      "sortIndex": 168
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PSE",
+      "description": "N",
+      "value": "PALESTINIAN TERRITORY, OCCUPIED",
+      "sortIndex": 169
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PAN",
+      "description": "N",
+      "value": "PANAMA",
+      "sortIndex": 170
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PNG",
+      "description": "N",
+      "value": "PAPUA NEW GUINEA",
+      "sortIndex": 171
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PRY",
+      "description": "N",
+      "value": "PARAGUAY",
+      "sortIndex": 172
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PER",
+      "description": "N",
+      "value": "PERU",
+      "sortIndex": 173
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PCN",
+      "description": "N",
+      "value": "PITCAIRN",
+      "sortIndex": 174
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "POL",
+      "description": "N",
+      "value": "POLAND",
+      "sortIndex": 175
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PRT",
+      "description": "N",
+      "value": "PORTUGAL",
+      "sortIndex": 176
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "PRI",
+      "description": "N",
+      "value": "PUERTO RICO",
+      "sortIndex": 177
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "QAT",
+      "description": "N",
+      "value": "QATAR",
+      "sortIndex": 178
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "REU",
+      "description": "N",
+      "value": "REUNION",
+      "sortIndex": 179
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ROM",
+      "description": "N",
+      "value": "ROMANIA",
+      "sortIndex": 180
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "RUS",
+      "description": "N",
+      "value": "RUSSIAN FEDERATION",
+      "sortIndex": 181
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "RWA",
+      "description": "N",
+      "value": "RWANDA",
+      "sortIndex": 182
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "BLM",
+      "description": "N",
+      "value": "SAINT BARTHELEMY",
+      "sortIndex": 183
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "MAF",
+      "description": "N",
+      "value": "SAINT MARTIN",
+      "sortIndex": 184
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "WSM",
+      "description": "N",
+      "value": "SAMOA",
+      "sortIndex": 185
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SMR",
+      "description": "N",
+      "value": "SAN MARINO",
+      "sortIndex": 186
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "STP",
+      "description": "N",
+      "value": "SAO TOME AND PRINCIPE",
+      "sortIndex": 187
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SAU",
+      "description": "N",
+      "value": "SAUDI ARABIA",
+      "sortIndex": 188
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SEN",
+      "description": "N",
+      "value": "SENEGAL",
+      "sortIndex": 189
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SRB",
+      "description": "N",
+      "value": "SERBIA",
+      "sortIndex": 190
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SCG",
+      "description": "N",
+      "value": "SERBIA AND MONTENEGRO",
+      "sortIndex": 191
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SYC",
+      "description": "N",
+      "value": "SEYCHELLES",
+      "sortIndex": 192
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SLE",
+      "description": "N",
+      "value": "SIERRA LEONE",
+      "sortIndex": 193
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SGP",
+      "description": "N",
+      "value": "SINGAPORE",
+      "sortIndex": 194
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SXM",
+      "description": "N",
+      "value": "SINT MAARTEN (DUTCH)",
+      "sortIndex": 195
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SVK",
+      "description": "N",
+      "value": "SLOVAKIA",
+      "sortIndex": 196
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SVN",
+      "description": "N",
+      "value": "SLOVENIA",
+      "sortIndex": 197
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SGS",
+      "description": "N",
+      "value": "SO GEORGIA AND SO SANDWICH IS",
+      "sortIndex": 198
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SLB",
+      "description": "N",
+      "value": "SOLOMON IS",
+      "sortIndex": 199
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SOM",
+      "description": "Y",
+      "value": "SOMALIA",
+      "sortIndex": 200
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ZAF",
+      "description": "N",
+      "value": "SOUTH AFRICA",
+      "sortIndex": 201
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ESP",
+      "description": "N",
+      "value": "SPAIN",
+      "sortIndex": 202
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LKA",
+      "description": "N",
+      "value": "SRI LANKA",
+      "sortIndex": 203
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "KNA",
+      "description": "N",
+      "value": "ST KITTS-NEVIS",
+      "sortIndex": 204
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "LCA",
+      "description": "N",
+      "value": "ST LUCIA",
+      "sortIndex": 205
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SPM",
+      "description": "N",
+      "value": "ST PIERRE AND MIQUELON",
+      "sortIndex": 206
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "VCT",
+      "description": "N",
+      "value": "ST VINCENT AND THE GRENADINES",
+      "sortIndex": 207
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SHN",
+      "description": "N",
+      "value": "ST.HELENA,ASCENSION AND TRISTAN DA CUNHA",
+      "sortIndex": 208
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SDN",
+      "description": "Y",
+      "value": "SUDAN",
+      "sortIndex": 209
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SUR",
+      "description": "N",
+      "value": "SURINAME",
+      "sortIndex": 210
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SJM",
+      "description": "N",
+      "value": "SVALBARD AND JAN MAYEN IS",
+      "sortIndex": 211
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SWZ",
+      "description": "N",
+      "value": "SWAZILAND",
+      "sortIndex": 212
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SWE",
+      "description": "N",
+      "value": "SWEDEN",
+      "sortIndex": 213
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "CHE",
+      "description": "N",
+      "value": "SWITZERLAND",
+      "sortIndex": 214
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "SYR",
+      "description": "N",
+      "value": "SYRIAN ARAB REPUBLIC",
+      "sortIndex": 215
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TWN",
+      "description": "N",
+      "value": "TAIWAN PROV OF CHINA",
+      "sortIndex": 216
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TJK",
+      "description": "N",
+      "value": "TAJIKISTAN",
+      "sortIndex": 217
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TZA",
+      "description": "N",
+      "value": "TANZANIA UNITED REPUBLIC OF",
+      "sortIndex": 218
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "THA",
+      "description": "N",
+      "value": "THAILAND",
+      "sortIndex": 219
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TLS",
+      "description": "N",
+      "value": "TIMOR-LESTE",
+      "sortIndex": 220
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TMP",
+      "description": "N",
+      "value": "TIMOR-LESTE",
+      "sortIndex": 221
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TGO",
+      "description": "N",
+      "value": "TOGO",
+      "sortIndex": 222
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TKL",
+      "description": "N",
+      "value": "TOKELAU",
+      "sortIndex": 223
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TON",
+      "description": "N",
+      "value": "TONGA",
+      "sortIndex": 224
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TTO",
+      "description": "N",
+      "value": "TRINIDAD AND TOBAGO",
+      "sortIndex": 225
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TUN",
+      "description": "N",
+      "value": "TUNISIA",
+      "sortIndex": 226
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TUR",
+      "description": "N",
+      "value": "TURKEY",
+      "sortIndex": 227
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TKM",
+      "description": "N",
+      "value": "TURKMENISTAN",
+      "sortIndex": 228
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TCA",
+      "description": "N",
+      "value": "TURKS AND CAICOS IS",
+      "sortIndex": 229
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "TUV",
+      "description": "N",
+      "value": "TUVALU",
+      "sortIndex": 230
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "UGA",
+      "description": "N",
+      "value": "UGANDA",
+      "sortIndex": 231
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "UKR",
+      "description": "N",
+      "value": "UKRAINE",
+      "sortIndex": 232
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ARE",
+      "description": "N",
+      "value": "UNITED ARAB EMIRATES",
+      "sortIndex": 233
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "USA",
+      "description": "N",
+      "value": "UNITED STATES",
+      "sortIndex": 234
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "URY",
+      "description": "N",
+      "value": "URUGUAY",
+      "sortIndex": 235
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "UMI",
+      "description": "N",
+      "value": "US MINOR OUTLYING ISLANDS",
+      "sortIndex": 236
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "VIR",
+      "description": "N",
+      "value": "US VIRGIN IS",
+      "sortIndex": 237
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "UZB",
+      "description": "N",
+      "value": "UZBEKISTAN",
+      "sortIndex": 238
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "VUT",
+      "description": "N",
+      "value": "VANUATU",
+      "sortIndex": 239
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "VAT",
+      "description": "N",
+      "value": "VATICAN CITY STATE",
+      "sortIndex": 240
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "VEN",
+      "description": "N",
+      "value": "VENEZUELA, BOLIVARIAN REPUBLIC OF",
+      "sortIndex": 241
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "VNM",
+      "description": "N",
+      "value": "VIET NAM",
+      "sortIndex": 242
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "WLF",
+      "description": "N",
+      "value": "WALLIS AND FUTUNA IS",
+      "sortIndex": 243
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ESH",
+      "description": "N",
+      "value": "WESTERN SAHARA",
+      "sortIndex": 244
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "YEM",
+      "description": "N",
+      "value": "YEMEN",
+      "sortIndex": 245
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ZMB",
+      "description": "N",
+      "value": "ZAMBIA",
+      "sortIndex": 246
+    },
+    {
+      "category": "MULTIAPP_COUNTRY",
+      "code": "ZWE",
+      "description": "N",
+      "value": "ZIMBABWE",
+      "sortIndex": 247
+    }
+  ],
+  "MULTIAPP_TITLES": [
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Mr",
+      "description": "    ",
+      "value": "Mr",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Mis",
+      "description": "    ",
+      "value": "Mis",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Mrs",
+      "description": "    ",
+      "value": "Mrs",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Ms",
+      "description": "    ",
+      "value": "Ms",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Ldy",
+      "description": "    ",
+      "value": "Ldy",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Dr",
+      "description": "    ",
+      "value": "Dr",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Pas",
+      "description": "    ",
+      "value": "Pas",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Prf",
+      "description": "    ",
+      "value": "Prf",
+      "sortIndex": 8
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Rev",
+      "description": "    ",
+      "value": "Rev",
+      "sortIndex": 9
+    },
+    {
+      "category": "MULTIAPP_TITLES",
+      "code": "Sir",
+      "description": "    ",
+      "value": "Sir",
+      "sortIndex": 10
+    }
+  ],
+  "MULTIAPP_CRRT_LIST": [
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "AGO",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "ALB",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "ARE",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "ARM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "ATG",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "AZE",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BDI",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BEN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BGD",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BHR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BIH",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BLR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BLZ",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BOL",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "BRN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "CAF",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "CIV",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "CMR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "COD",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "COG",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "COK",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "COL",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "COM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "CUB",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "CYM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "DOM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "DZA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "ECU",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "EGY",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "ERI",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "EST",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "ETH",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "GEO",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "GHA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "GIN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "GMB",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "GNB",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "GNQ",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "GTM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "GUY",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "HND",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "HTI",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "IDN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "IOT",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "IRN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "IRQ",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "JAM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "KAZ",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "KEN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "KGZ",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "KHM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "KIR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "KWT",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "LAO",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "LBN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "LBR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "LBY",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "LKA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "LTU",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "LVA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MAR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MDA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MEX",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MHL",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MLI",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MMR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MNG",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MOZ",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MRT",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "MYS",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "NAM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "NER",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "NGA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "NIC",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "NPL",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PAK",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PAN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PER",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PHL",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PLW",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PNG",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PRK",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PRY",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PSE",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "PYF",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "QAT",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "RUS",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "RWA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "SAU",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "SDN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "SLB",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "SLE",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "SLV",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "SOM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "SRB",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "STP",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "SYR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TCA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TCD",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TGO",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "THA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TJK",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TKM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TLS",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TMP",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TON",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TUN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TUR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TUV",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "TZA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "UGA",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "UKR",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "URY",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "UZB",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "VEN",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "VNM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "VUT",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "YEM",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "ZWE",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CRRT_LIST",
+      "code": "AFG",
+      "sortIndex": 1
+    }
+  ],
+  "MULTIAPP_STATES": [
+    {
+      "category": "MULTIAPP_STATES",
+      "code": "ACT",
+      "description": "    ",
+      "value": "Australian Capitol Territory",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_STATES",
+      "code": "NSW",
+      "description": "    ",
+      "value": "New South Wales",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_STATES",
+      "code": "NT",
+      "description": "    ",
+      "value": "Northern Territory",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_STATES",
+      "code": "QLD",
+      "description": "    ",
+      "value": "Queensland",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_STATES",
+      "code": "SA",
+      "description": "    ",
+      "value": "South Australia",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_STATES",
+      "code": "TAS",
+      "description": "    ",
+      "value": "Tasmania",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_STATES",
+      "code": "VIC",
+      "description": "    ",
+      "value": "Victoria",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_STATES",
+      "code": "WA",
+      "description": "    ",
+      "value": "Western Australia",
+      "sortIndex": 8
+    }
+  ],
+  "MULTIAPP_SCC_LIST": [
+    {
+      "category": "MULTIAPP_SCC_LIST",
+      "code": "21",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_SCC_LIST",
+      "code": "20",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_SCC_LIST",
+      "code": "26",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_SCC_LIST",
+      "code": "33",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_SCC_LIST",
+      "code": "44",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_SCC_LIST",
+      "code": "88",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_SCC_LIST",
+      "code": "91",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_SCC_LIST",
+      "code": "94",
+      "sortIndex": 1
+    }
+  ],
+  "MULTIAPP_ACCOUNT_BUNDLES": [
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "1",
+      "value": "Day to Day",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "2",
+      "value": "Multi Currency",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "3",
+      "value": "Serious Saver",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "7",
+      "value": "Flexisaver",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "4",
+      "value": "Day to Day + Online Share Trading",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "5",
+      "value": "Day to Day + Serious Saver",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "6",
+      "value": "Day to Day + Multi Currency",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "8",
+      "value": "Day to Day + Flexi Saver",
+      "sortIndex": 8
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_BUNDLES",
+      "code": "9",
+      "value": "Day to Day + Flexi Saver + Online Share Trading",
+      "sortIndex": 9
+    }
+  ],
+  "MULTIAPP_PURPOSES": [
+    {
+      "category": "MULTIAPP_PURPOSES",
+      "code": "Salary and living expenses",
+      "description": "    ",
+      "value": "Salary and living expenses",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_PURPOSES",
+      "code": "Savings",
+      "description": "    ",
+      "value": "Savings",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_PURPOSES",
+      "code": "Investment",
+      "description": "    ",
+      "value": "Investment",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_PURPOSES",
+      "code": "Loan repayment",
+      "description": "    ",
+      "value": "Loan repayment",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_PURPOSES",
+      "code": "International payments",
+      "description": "    ",
+      "value": "International payments",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_PURPOSES",
+      "code": "Educational funds",
+      "description": "    ",
+      "value": "Educational funds",
+      "sortIndex": 6
+    }
+  ],
+  "MULTIAPP_BRANCHES": [
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B001",
+      "value": "Collins St, VIC",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B002",
+      "value": "Swanston St, VIC",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B003",
+      "value": "Box Hill, VIC",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B005",
+      "value": "Glen Waverley, VIC",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B006",
+      "value": "South Melbourne, VIC",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B007",
+      "value": "Chadstone, VIC",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B008",
+      "value": "Camberwell, VIC",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B009",
+      "value": "Doncaster, VIC",
+      "sortIndex": 8
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B011",
+      "value": "Exchange, NSW",
+      "sortIndex": 9
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B012",
+      "value": "Haymarket, NSW",
+      "sortIndex": 10
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B015",
+      "value": "Hurstville, NSW",
+      "sortIndex": 11
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B016",
+      "value": "Chatswood, NSW",
+      "sortIndex": 12
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B017",
+      "value": "Parramatta, NSW",
+      "sortIndex": 13
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B018",
+      "value": "Burwood, NSW",
+      "sortIndex": 14
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B019",
+      "value": "Castle Hill, NSW",
+      "sortIndex": 15
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B021",
+      "value": "Perth, WA",
+      "sortIndex": 16
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B022",
+      "value": "Booragoon, WA",
+      "sortIndex": 17
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B023",
+      "value": "Joondalup, WA",
+      "sortIndex": 18
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B025",
+      "value": "Subiaco, WA",
+      "sortIndex": 19
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B031",
+      "value": "Brisbane, QLD",
+      "sortIndex": 20
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B032",
+      "value": "Sunnybank, QLD",
+      "sortIndex": 21
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B033",
+      "value": "Gold Coast, QLD",
+      "sortIndex": 22
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B039",
+      "value": "Adelaide, SA",
+      "sortIndex": 23
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B075",
+      "value": "Hornsby, NSW",
+      "sortIndex": 24
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B076",
+      "value": "Macquarie, NSW",
+      "sortIndex": 25
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B077",
+      "value": "Maroubra, NSW",
+      "sortIndex": 26
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B078",
+      "value": "Bondi Junction, NSW",
+      "sortIndex": 27
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B079",
+      "value": "King St, NSW",
+      "sortIndex": 28
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B080",
+      "value": "Town Hall, NSW",
+      "sortIndex": 29
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B083",
+      "value": "North Sydney, NSW",
+      "sortIndex": 30
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B085",
+      "value": "Canberra, ACT",
+      "sortIndex": 31
+    },
+    {
+      "category": "MULTIAPP_BRANCHES",
+      "code": "B091",
+      "value": "Direct Sales",
+      "sortIndex": 32
+    }
+  ],
+  "MULTIAPP_ACCOUNT_ACTIVITIES": [
+    {
+      "category": "MULTIAPP_ACCOUNT_ACTIVITIES",
+      "code": "ODW",
+      "value": "Online deposits or withdrawals",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_ACTIVITIES",
+      "code": "CDW",
+      "value": "Cash deposits or withdrawals",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_ACTIVITIES",
+      "code": "DAP",
+      "value": "Daily purchases",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_ACCOUNT_ACTIVITIES",
+      "code": "OFT",
+      "value": "Offshore transactions",
+      "sortIndex": 4
+    }
+  ],
+  "MULTIAPP_APPLICATION_STATUS": [
+    {
+      "category": "MULTIAPP_APPLICATION_STATUS",
+      "code": "P",
+      "value": "pending ID",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_APPLICATION_STATUS",
+      "code": "C",
+      "value": "submitted",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_APPLICATION_STATUS",
+      "code": "D",
+      "value": "submitted",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_APPLICATION_STATUS",
+      "code": "F",
+      "value": "completed",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_APPLICATION_STATUS",
+      "code": "I",
+      "value": "not submitted",
+      "sortIndex": 2
+    }
+  ],
+  "MULTIAPP_JOBS": [
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "23",
+      "description": "    ",
+      "value": "Account Clerk",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "17",
+      "description": "    ",
+      "value": "Accountant",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "68",
+      "description": "    ",
+      "value": "Agent (Covers Estate Agents, Others)",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "25",
+      "description": "    ",
+      "value": "Aircrew(To Include Steward/Stewardess)",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "26",
+      "description": "    ",
+      "value": "Ambassador/Diplomat",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "18",
+      "description": "    ",
+      "value": "Architect",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "13",
+      "description": "    ",
+      "value": "Armed Forces",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "27",
+      "description": "    ",
+      "value": "Artisan/Craftsman",
+      "sortIndex": 8
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "28",
+      "description": "    ",
+      "value": "Artist",
+      "sortIndex": 9
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "29",
+      "description": "    ",
+      "value": "Auctioneer",
+      "sortIndex": 10
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "30",
+      "description": "    ",
+      "value": "Author",
+      "sortIndex": 11
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "69",
+      "description": "    ",
+      "value": "Baker/Cook",
+      "sortIndex": 12
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "31",
+      "description": "    ",
+      "value": "Banker",
+      "sortIndex": 13
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "32",
+      "description": "    ",
+      "value": "Beauty Consultant/Hair Stylist",
+      "sortIndex": 14
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "70",
+      "description": "    ",
+      "value": "Broker/Remister",
+      "sortIndex": 15
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "71",
+      "description": "    ",
+      "value": "Builder/Contractor/Carpenter",
+      "sortIndex": 16
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "72",
+      "description": "    ",
+      "value": "Business Owner",
+      "sortIndex": 17
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "24",
+      "description": "    ",
+      "value": "Butcher",
+      "sortIndex": 18
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "19",
+      "description": "    ",
+      "value": "Chemist/Pharmacist",
+      "sortIndex": 19
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "34",
+      "description": "    ",
+      "value": "Child Care Worker",
+      "sortIndex": 20
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "33",
+      "description": "    ",
+      "value": "Civil Servant (Executive)",
+      "sortIndex": 21
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "20",
+      "description": "    ",
+      "value": "Civil Servant (Senior Executive)",
+      "sortIndex": 22
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "03",
+      "description": "    ",
+      "value": "Clerical/Cashier/Receptionist/Tel Operator",
+      "sortIndex": 23
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "81",
+      "description": "    ",
+      "value": "Company Director",
+      "sortIndex": 24
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "73",
+      "description": "    ",
+      "value": "Daily Wage Earner",
+      "sortIndex": 25
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "35",
+      "description": "    ",
+      "value": "Data Processing-Analyst/Programmer",
+      "sortIndex": 26
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "87",
+      "description": "    ",
+      "value": "Dentist",
+      "sortIndex": 27
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "36",
+      "description": "    ",
+      "value": "Designer",
+      "sortIndex": 28
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "88",
+      "description": "    ",
+      "value": "Dignatries",
+      "sortIndex": 29
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "08",
+      "description": "    ",
+      "value": "Doctor (Medical/Veterinary Surgeon)",
+      "sortIndex": 30
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "74",
+      "description": "    ",
+      "value": "Driver",
+      "sortIndex": 31
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "37",
+      "description": "    ",
+      "value": "Electrican",
+      "sortIndex": 32
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "90",
+      "description": "    ",
+      "value": "Engineer",
+      "sortIndex": 33
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "75",
+      "description": "    ",
+      "value": "Entertainers",
+      "sortIndex": 34
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "21",
+      "description": "    ",
+      "value": "Executive (Senior) In Major Groups",
+      "sortIndex": 35
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "02",
+      "description": "    ",
+      "value": "Executive/Manager",
+      "sortIndex": 36
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "06",
+      "description": "    ",
+      "value": "Farmer",
+      "sortIndex": 37
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "39",
+      "description": "    ",
+      "value": "Film Producer/Scriptwriter",
+      "sortIndex": 38
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "40",
+      "description": "    ",
+      "value": "Fireman",
+      "sortIndex": 39
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "77",
+      "description": "    ",
+      "value": "Guard/Watchman",
+      "sortIndex": 40
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "78",
+      "description": "    ",
+      "value": "Hawker",
+      "sortIndex": 41
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "80",
+      "description": "    ",
+      "value": "Home Duties",
+      "sortIndex": 42
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "38",
+      "description": "    ",
+      "value": "Hospitality (Bar/Pub/Restaurant)",
+      "sortIndex": 43
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "41",
+      "description": "    ",
+      "value": "Lab Technician",
+      "sortIndex": 44
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "91",
+      "description": "    ",
+      "value": "Lawyer/Barrister/Solicitor/Judge",
+      "sortIndex": 45
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "92",
+      "description": "    ",
+      "value": "Lecturer",
+      "sortIndex": 46
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "42",
+      "description": "    ",
+      "value": "Librarian",
+      "sortIndex": 47
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "93",
+      "description": "    ",
+      "value": "Management Consultant",
+      "sortIndex": 48
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "05",
+      "description": "    ",
+      "value": "Manual Worker (Maid/Factory Worker/Oth)",
+      "sortIndex": 49
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "43",
+      "description": "    ",
+      "value": "Mechanic",
+      "sortIndex": 50
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "82",
+      "description": "    ",
+      "value": "Military Personnel (Below The Rank Of Captain)",
+      "sortIndex": 51
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "44",
+      "description": "    ",
+      "value": "Military Personnel (Captain And Above)",
+      "sortIndex": 52
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "94",
+      "description": "    ",
+      "value": "Minister/Member Of Parliament",
+      "sortIndex": 53
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "50",
+      "description": "    ",
+      "value": "Minor - Under 16 Years Old",
+      "sortIndex": 54
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "83",
+      "description": "    ",
+      "value": "Model",
+      "sortIndex": 55
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "58",
+      "description": "    ",
+      "value": "Nanny",
+      "sortIndex": 56
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "09",
+      "description": "    ",
+      "value": "Not Working - Housewife",
+      "sortIndex": 57
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "62",
+      "description": "    ",
+      "value": "Not Working - New Migrant",
+      "sortIndex": 58
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "10",
+      "description": "    ",
+      "value": "Not Working - Retired",
+      "sortIndex": 59
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "07",
+      "description": "    ",
+      "value": "Not Working - Student",
+      "sortIndex": 60
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "63",
+      "description": "    ",
+      "value": "Not Working - Travel Visa",
+      "sortIndex": 61
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "45",
+      "description": "    ",
+      "value": "Nurse",
+      "sortIndex": 62
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "16",
+      "description": "    ",
+      "value": "Other",
+      "sortIndex": 63
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "46",
+      "description": "    ",
+      "value": "Photographer",
+      "sortIndex": 64
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "47",
+      "description": "    ",
+      "value": "Physiotherapist",
+      "sortIndex": 65
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "48",
+      "description": "    ",
+      "value": "Pilot/Navigator (Commercial Aircraft)",
+      "sortIndex": 66
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "49",
+      "description": "    ",
+      "value": "Pilot/Navigator (Naval)",
+      "sortIndex": 67
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "14",
+      "description": "    ",
+      "value": "Police",
+      "sortIndex": 68
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "84",
+      "description": "    ",
+      "value": "Porter/Bellhop/Lift Attendant",
+      "sortIndex": 69
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "64",
+      "description": "    ",
+      "value": "Post Graduate",
+      "sortIndex": 70
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "51",
+      "description": "    ",
+      "value": "Printer",
+      "sortIndex": 71
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "01",
+      "description": "    ",
+      "value": "Professional/Senior Administrative)",
+      "sortIndex": 72
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "22",
+      "description": "    ",
+      "value": "Professor",
+      "sortIndex": 73
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "65",
+      "description": "    ",
+      "value": "Property Developer",
+      "sortIndex": 74
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "52",
+      "description": "    ",
+      "value": "Religious",
+      "sortIndex": 75
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "53",
+      "description": "    ",
+      "value": "Reporter/Journalist",
+      "sortIndex": 76
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "66",
+      "description": "    ",
+      "value": "Retail Sales Assistant",
+      "sortIndex": 77
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "85",
+      "description": "    ",
+      "value": "Sailor/Merchant Navy",
+      "sortIndex": 78
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "86",
+      "description": "    ",
+      "value": "Sales Professional",
+      "sortIndex": 79
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "54",
+      "description": "    ",
+      "value": "Secretary/Stenographer",
+      "sortIndex": 80
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "11",
+      "description": "    ",
+      "value": "Self-Employed",
+      "sortIndex": 81
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "04",
+      "description": "    ",
+      "value": "Skilled Manual",
+      "sortIndex": 82
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "55",
+      "description": "    ",
+      "value": "Social Worker",
+      "sortIndex": 83
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "67",
+      "description": "    ",
+      "value": "Storeperson",
+      "sortIndex": 84
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "56",
+      "description": "    ",
+      "value": "Supervisor",
+      "sortIndex": 85
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "95",
+      "description": "    ",
+      "value": "Surveyor",
+      "sortIndex": 86
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "57",
+      "description": "    ",
+      "value": "Tailor",
+      "sortIndex": 87
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "12",
+      "description": "    ",
+      "value": "Teacher",
+      "sortIndex": 88
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "59",
+      "description": "    ",
+      "value": "Technician",
+      "sortIndex": 89
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "60",
+      "description": "    ",
+      "value": "Undertaker/Embalmer",
+      "sortIndex": 90
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "15",
+      "description": "    ",
+      "value": "Unemployed",
+      "sortIndex": 91
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "99",
+      "description": "    ",
+      "value": "Unknown / Refuse To Provide",
+      "sortIndex": 92
+    },
+    {
+      "category": "MULTIAPP_JOBS",
+      "code": "89",
+      "description": "    ",
+      "value": "Waiter",
+      "sortIndex": 93
+    }
+  ],
+  "MULTIAPP_STREET_TYPES": [
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ACC",
+      "description": "    ",
+      "value": "ACCESS",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "AL",
+      "description": "    ",
+      "value": "ALLEY",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "AMB",
+      "description": "    ",
+      "value": "AMBLE",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ANC",
+      "description": "    ",
+      "value": "ANCHORAGE",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "APP",
+      "description": "    ",
+      "value": "APPROACH",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ARC",
+      "description": "    ",
+      "value": "ARCADE",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ATY",
+      "description": "    ",
+      "value": "ARTERY",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "AVE",
+      "description": "    ",
+      "value": "AVENUE",
+      "sortIndex": 8
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "AWY",
+      "description": "    ",
+      "value": "ALLEYWAY",
+      "sortIndex": 9
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BAS",
+      "description": "    ",
+      "value": "BASIN",
+      "sortIndex": 10
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BCH",
+      "description": "    ",
+      "value": "BEACH",
+      "sortIndex": 11
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BLK",
+      "description": "    ",
+      "value": "BLOCK",
+      "sortIndex": 12
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BLV",
+      "description": "    ",
+      "value": "BOULEVARD",
+      "sortIndex": 13
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BND",
+      "description": "    ",
+      "value": "BEND",
+      "sortIndex": 14
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BNK",
+      "description": "    ",
+      "value": "BANK",
+      "sortIndex": 15
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BPS",
+      "description": "    ",
+      "value": "BYPASS",
+      "sortIndex": 16
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BR",
+      "description": "    ",
+      "value": "BRACE",
+      "sortIndex": 17
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BRA",
+      "description": "    ",
+      "value": "BRAE",
+      "sortIndex": 18
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BRG",
+      "description": "    ",
+      "value": "BRIDGE",
+      "sortIndex": 19
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BRK",
+      "description": "    ",
+      "value": "BREAK",
+      "sortIndex": 20
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BRW",
+      "description": "    ",
+      "value": "BROW",
+      "sortIndex": 21
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BWL",
+      "description": "    ",
+      "value": "BOWL",
+      "sortIndex": 22
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BWY",
+      "description": "    ",
+      "value": "BROADWAY",
+      "sortIndex": 23
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "BYW",
+      "description": "    ",
+      "value": "BYWAY",
+      "sortIndex": 24
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CCT",
+      "description": "    ",
+      "value": "CIRCUIT",
+      "sortIndex": 25
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CDS",
+      "description": "    ",
+      "value": "CUL-DE-SAC",
+      "sortIndex": 26
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CH",
+      "description": "    ",
+      "value": "CHASE",
+      "sortIndex": 27
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CIR",
+      "description": "    ",
+      "value": "CIRCLE",
+      "sortIndex": 28
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CL",
+      "description": "    ",
+      "value": "CLOSE",
+      "sortIndex": 29
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CLD",
+      "description": "    ",
+      "value": "COLONNADE",
+      "sortIndex": 30
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CLT",
+      "description": "    ",
+      "value": "CIRCLET",
+      "sortIndex": 31
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CMN",
+      "description": "    ",
+      "value": "COMMON",
+      "sortIndex": 32
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CNC",
+      "description": "    ",
+      "value": "CONCOURSE",
+      "sortIndex": 33
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CNR",
+      "description": "    ",
+      "value": "CORNER",
+      "sortIndex": 34
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CPS",
+      "description": "    ",
+      "value": "COPSE",
+      "sortIndex": 35
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CRC",
+      "description": "    ",
+      "value": "CIRCUS",
+      "sortIndex": 36
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CRD",
+      "description": "    ",
+      "value": "CROSSROAD",
+      "sortIndex": 37
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CRS",
+      "description": "    ",
+      "value": "CRESCENT",
+      "sortIndex": 38
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CRT",
+      "description": "    ",
+      "value": "COURT",
+      "sortIndex": 39
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CRW",
+      "description": "    ",
+      "value": "CROSSWAY",
+      "sortIndex": 40
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CSG",
+      "description": "    ",
+      "value": "CROSSING",
+      "sortIndex": 41
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CSO",
+      "description": "    ",
+      "value": "CORSO",
+      "sortIndex": 42
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CSW",
+      "description": "    ",
+      "value": "CRUISEWAY",
+      "sortIndex": 43
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CT",
+      "description": "    ",
+      "value": "COURT",
+      "sortIndex": 44
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CTR",
+      "description": "    ",
+      "value": "CENTRE",
+      "sortIndex": 45
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CTW",
+      "description": "    ",
+      "value": "CENTREWAY",
+      "sortIndex": 46
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CUT",
+      "description": "    ",
+      "value": "CUTTING",
+      "sortIndex": 47
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CVE",
+      "description": "    ",
+      "value": "COVE",
+      "sortIndex": 48
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CWY",
+      "description": "    ",
+      "value": "CAUSEWAY",
+      "sortIndex": 49
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "CYD",
+      "description": "    ",
+      "value": "COURTYARD",
+      "sortIndex": 50
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "DAL",
+      "description": "    ",
+      "value": "DALE",
+      "sortIndex": 51
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "DEL",
+      "description": "    ",
+      "value": "DELL",
+      "sortIndex": 52
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "DIP",
+      "description": "    ",
+      "value": "DIP",
+      "sortIndex": 53
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "DR",
+      "description": "    ",
+      "value": "DRIVE",
+      "sortIndex": 54
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "DRY",
+      "description": "    ",
+      "value": "DRIVEWAY",
+      "sortIndex": 55
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "DTR",
+      "description": "    ",
+      "value": "DISTRIBUTOR",
+      "sortIndex": 56
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "DVN",
+      "description": "    ",
+      "value": "DEVIATION",
+      "sortIndex": 57
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "EGE",
+      "description": "    ",
+      "value": "EDGE",
+      "sortIndex": 58
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ELB",
+      "description": "    ",
+      "value": "ELBOW",
+      "sortIndex": 59
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "END",
+      "description": "    ",
+      "value": "END",
+      "sortIndex": 60
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ENT",
+      "description": "    ",
+      "value": "ENTRANCE",
+      "sortIndex": 61
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ESP",
+      "description": "    ",
+      "value": "ESPLANADE",
+      "sortIndex": 62
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "EST",
+      "description": "    ",
+      "value": "ESTATE",
+      "sortIndex": 63
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "EXP",
+      "description": "    ",
+      "value": "EXPRESSWAY",
+      "sortIndex": 64
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "EXT",
+      "description": "    ",
+      "value": "EXTENSION",
+      "sortIndex": 65
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FAY",
+      "description": "    ",
+      "value": "FAIRWAY",
+      "sortIndex": 66
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FLT",
+      "description": "    ",
+      "value": "FLAT",
+      "sortIndex": 67
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FLW",
+      "description": "    ",
+      "value": "FOLLOW",
+      "sortIndex": 68
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FMN",
+      "description": "    ",
+      "value": "FORMATION",
+      "sortIndex": 69
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FR",
+      "description": "    ",
+      "value": "FRONTAGE",
+      "sortIndex": 70
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FRT",
+      "description": "    ",
+      "value": "FRONT",
+      "sortIndex": 71
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FSR",
+      "description": "    ",
+      "value": "FORESHORE",
+      "sortIndex": 72
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FTK",
+      "description": "    ",
+      "value": "FIRETRACK",
+      "sortIndex": 73
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FTL",
+      "description": "    ",
+      "value": "FIRETRAIL",
+      "sortIndex": 74
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FTW",
+      "description": "    ",
+      "value": "FOOTWAY",
+      "sortIndex": 75
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "FWY",
+      "description": "    ",
+      "value": "FREEWAY",
+      "sortIndex": 76
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GAP",
+      "description": "    ",
+      "value": "GAP",
+      "sortIndex": 77
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GDN",
+      "description": "    ",
+      "value": "GARDEN",
+      "sortIndex": 78
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GDS",
+      "description": "    ",
+      "value": "GARDENS",
+      "sortIndex": 79
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GL",
+      "description": "    ",
+      "value": "GLADE",
+      "sortIndex": 80
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GLN",
+      "description": "    ",
+      "value": "GLEN",
+      "sortIndex": 81
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GLY",
+      "description": "    ",
+      "value": "GULLY",
+      "sortIndex": 82
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GRA",
+      "description": "    ",
+      "value": "GRANGE",
+      "sortIndex": 83
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GRD",
+      "description": "    ",
+      "value": "GROUND",
+      "sortIndex": 84
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GRN",
+      "description": "    ",
+      "value": "GREEN",
+      "sortIndex": 85
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GTE",
+      "description": "    ",
+      "value": "GATE",
+      "sortIndex": 86
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GTS",
+      "description": "    ",
+      "value": "GATES",
+      "sortIndex": 87
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "GVE",
+      "description": "    ",
+      "value": "GROVE",
+      "sortIndex": 88
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "HIL",
+      "description": "    ",
+      "value": "HILL",
+      "sortIndex": 89
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "HRD",
+      "description": "    ",
+      "value": "HIGHROAD",
+      "sortIndex": 90
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "HTS",
+      "description": "    ",
+      "value": "HEIGHTS",
+      "sortIndex": 91
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "HWY",
+      "description": "    ",
+      "value": "HIGHWAY",
+      "sortIndex": 92
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ITC",
+      "description": "    ",
+      "value": "INTERCHANGE",
+      "sortIndex": 93
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ITS",
+      "description": "    ",
+      "value": "INTERSECTION",
+      "sortIndex": 94
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "JN",
+      "description": "    ",
+      "value": "JUNCTION",
+      "sortIndex": 95
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "KEY",
+      "description": "    ",
+      "value": "KEY",
+      "sortIndex": 96
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LA",
+      "description": "    ",
+      "value": "LANE",
+      "sortIndex": 97
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LDG",
+      "description": "    ",
+      "value": "LANDING",
+      "sortIndex": 98
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LEE",
+      "description": "    ",
+      "value": "LEES",
+      "sortIndex": 99
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LIN",
+      "description": "    ",
+      "value": "LINE",
+      "sortIndex": 100
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LK",
+      "description": "    ",
+      "value": "LINK",
+      "sortIndex": 101
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LKO",
+      "description": "    ",
+      "value": "LOOKOUT",
+      "sortIndex": 102
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LOW",
+      "description": "    ",
+      "value": "LOWER",
+      "sortIndex": 103
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LP",
+      "description": "    ",
+      "value": "LOOP",
+      "sortIndex": 104
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LT",
+      "description": "    ",
+      "value": "LITTLE",
+      "sortIndex": 105
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "LWY",
+      "description": "    ",
+      "value": "LANEWAY",
+      "sortIndex": 106
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "MAL",
+      "description": "    ",
+      "value": "MALL",
+      "sortIndex": 107
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "MDR",
+      "description": "    ",
+      "value": "MEANDER",
+      "sortIndex": 108
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "MEW",
+      "description": "    ",
+      "value": "MEW",
+      "sortIndex": 109
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ML",
+      "description": "    ",
+      "value": "MILE",
+      "sortIndex": 110
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "MT",
+      "description": "    ",
+      "value": "MOUNT",
+      "sortIndex": 111
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "MWS",
+      "description": "    ",
+      "value": "MEWS",
+      "sortIndex": 112
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "MWY",
+      "description": "    ",
+      "value": "MOTORWAY",
+      "sortIndex": 113
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "NK",
+      "description": "    ",
+      "value": "NOOK",
+      "sortIndex": 114
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "OUT",
+      "description": "    ",
+      "value": "OUTLOOK",
+      "sortIndex": 115
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PDE",
+      "description": "    ",
+      "value": "PARADE",
+      "sortIndex": 116
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PKL",
+      "description": "    ",
+      "value": "PARKLANDS",
+      "sortIndex": 117
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PKT",
+      "description": "    ",
+      "value": "POCKET",
+      "sortIndex": 118
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PKW",
+      "description": "    ",
+      "value": "PARKWAY",
+      "sortIndex": 119
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PL",
+      "description": "    ",
+      "value": "PLACE",
+      "sortIndex": 120
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PLZ",
+      "description": "    ",
+      "value": "PLAZA",
+      "sortIndex": 121
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PNT",
+      "description": "    ",
+      "value": "POINT",
+      "sortIndex": 122
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PR",
+      "description": "    ",
+      "value": "PIER",
+      "sortIndex": 123
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PRK",
+      "description": "    ",
+      "value": "PARK",
+      "sortIndex": 124
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PRM",
+      "description": "    ",
+      "value": "PROMENADE",
+      "sortIndex": 125
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PRT",
+      "description": "    ",
+      "value": "PART",
+      "sortIndex": 126
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PSS",
+      "description": "    ",
+      "value": "PASS",
+      "sortIndex": 127
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PT",
+      "description": "    ",
+      "value": "PORT",
+      "sortIndex": 128
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PTH",
+      "description": "    ",
+      "value": "PATH",
+      "sortIndex": 129
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PTU",
+      "description": "    ",
+      "value": "PLATEAU",
+      "sortIndex": 130
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PWY",
+      "description": "    ",
+      "value": "PARKWAY",
+      "sortIndex": 131
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "PZA",
+      "description": "    ",
+      "value": "PIAZZA",
+      "sortIndex": 132
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "QD",
+      "description": "    ",
+      "value": "QUADRANT",
+      "sortIndex": 133
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "QDG",
+      "description": "    ",
+      "value": "QUADRANGLE",
+      "sortIndex": 134
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "QUD",
+      "description": "    ",
+      "value": "QUAD",
+      "sortIndex": 135
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "QY",
+      "description": "    ",
+      "value": "QUAY",
+      "sortIndex": 136
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "QYS",
+      "description": "    ",
+      "value": "QUAYS",
+      "sortIndex": 137
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RA",
+      "description": "    ",
+      "value": "RAMBLE",
+      "sortIndex": 138
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RBL",
+      "description": "    ",
+      "value": "ROSEBOWL",
+      "sortIndex": 139
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RCH",
+      "description": "    ",
+      "value": "REACH",
+      "sortIndex": 140
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RD",
+      "description": "    ",
+      "value": "ROAD",
+      "sortIndex": 141
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RDE",
+      "description": "    ",
+      "value": "RONDE",
+      "sortIndex": 142
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RDG",
+      "description": "    ",
+      "value": "RIDGE",
+      "sortIndex": 143
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RDS",
+      "description": "    ",
+      "value": "ROADS",
+      "sortIndex": 144
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RDW",
+      "description": "    ",
+      "value": "RIDGEWAY",
+      "sortIndex": 145
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RDY",
+      "description": "    ",
+      "value": "ROADWAY",
+      "sortIndex": 146
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RES",
+      "description": "    ",
+      "value": "RESERVE",
+      "sortIndex": 147
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RGE",
+      "description": "    ",
+      "value": "RANGE",
+      "sortIndex": 148
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RI",
+      "description": "    ",
+      "value": "RISE",
+      "sortIndex": 149
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RID",
+      "description": "    ",
+      "value": "RIDE",
+      "sortIndex": 150
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RMP",
+      "description": "    ",
+      "value": "RAMP",
+      "sortIndex": 151
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RND",
+      "description": "    ",
+      "value": "ROUND",
+      "sortIndex": 152
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RNG",
+      "description": "    ",
+      "value": "RING",
+      "sortIndex": 153
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ROW",
+      "description": "    ",
+      "value": "ROW",
+      "sortIndex": 154
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RSD",
+      "description": "    ",
+      "value": "ROADSIDE",
+      "sortIndex": 155
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RST",
+      "description": "    ",
+      "value": "REST",
+      "sortIndex": 156
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RT",
+      "description": "    ",
+      "value": "RETREAT",
+      "sortIndex": 157
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RTE",
+      "description": "    ",
+      "value": "ROUTE",
+      "sortIndex": 158
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RTW",
+      "description": "    ",
+      "value": "RIGHTOFWAY",
+      "sortIndex": 159
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RTY",
+      "description": "    ",
+      "value": "ROTARY",
+      "sortIndex": 160
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RUE",
+      "description": "    ",
+      "value": "RUE",
+      "sortIndex": 161
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RUN",
+      "description": "    ",
+      "value": "RUN",
+      "sortIndex": 162
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RVA",
+      "description": "    ",
+      "value": "RIVIERA",
+      "sortIndex": 163
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RVR",
+      "description": "    ",
+      "value": "RIVER",
+      "sortIndex": 164
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "RVW",
+      "description": "    ",
+      "value": "RIVERWAY",
+      "sortIndex": 165
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "SDG",
+      "description": "    ",
+      "value": "SIDING",
+      "sortIndex": 166
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "SHW",
+      "description": "    ",
+      "value": "STATEHIGHWAY",
+      "sortIndex": 167
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "SLP",
+      "description": "    ",
+      "value": "SLOPE",
+      "sortIndex": 168
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "SND",
+      "description": "    ",
+      "value": "SOUND",
+      "sortIndex": 169
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "SPR",
+      "description": "    ",
+      "value": "SPUR",
+      "sortIndex": 170
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "SQ",
+      "description": "    ",
+      "value": "SQUARE",
+      "sortIndex": 171
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "ST",
+      "description": "    ",
+      "value": "STREET",
+      "sortIndex": 172
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "STA",
+      "description": "    ",
+      "value": "STAIRS",
+      "sortIndex": 173
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "STI",
+      "description": "    ",
+      "value": "STRIP",
+      "sortIndex": 174
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "STP",
+      "description": "    ",
+      "value": "STEPS",
+      "sortIndex": 175
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "STR",
+      "description": "    ",
+      "value": "STREET",
+      "sortIndex": 176
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "STS",
+      "description": "    ",
+      "value": "STREETS",
+      "sortIndex": 177
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "SWY",
+      "description": "    ",
+      "value": "SERVICEWAY",
+      "sortIndex": 178
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TCE",
+      "description": "    ",
+      "value": "TERRACE",
+      "sortIndex": 179
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "THF",
+      "description": "    ",
+      "value": "THOROUGHFARE",
+      "sortIndex": 180
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TKW",
+      "description": "    ",
+      "value": "TRUNKWAY",
+      "sortIndex": 181
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TOP",
+      "description": "    ",
+      "value": "TOP",
+      "sortIndex": 182
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TOR",
+      "description": "    ",
+      "value": "TOR",
+      "sortIndex": 183
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TR",
+      "description": "    ",
+      "value": "TRACK",
+      "sortIndex": 184
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TRI",
+      "description": "    ",
+      "value": "TRIANGLE",
+      "sortIndex": 185
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TRL",
+      "description": "    ",
+      "value": "TRAIL",
+      "sortIndex": 186
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TRN",
+      "description": "    ",
+      "value": "TARNICEWAY",
+      "sortIndex": 187
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TRR",
+      "description": "    ",
+      "value": "TRAILER",
+      "sortIndex": 188
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TUR",
+      "description": "    ",
+      "value": "TURN",
+      "sortIndex": 189
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TWR",
+      "description": "    ",
+      "value": "TOWERS",
+      "sortIndex": 190
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "TWY",
+      "description": "    ",
+      "value": "TOLLWAY",
+      "sortIndex": 191
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "UNP",
+      "description": "    ",
+      "value": "UNDERPASS",
+      "sortIndex": 192
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "UPR",
+      "description": "    ",
+      "value": "UPPER",
+      "sortIndex": 193
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "VAL",
+      "description": "    ",
+      "value": "VALE",
+      "sortIndex": 194
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "VDT",
+      "description": "    ",
+      "value": "VIADUCT",
+      "sortIndex": 195
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "VLA",
+      "description": "    ",
+      "value": "VILLA",
+      "sortIndex": 196
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "VST",
+      "description": "    ",
+      "value": "VISTA",
+      "sortIndex": 197
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "VW",
+      "description": "    ",
+      "value": "VIEW",
+      "sortIndex": 198
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "WAY",
+      "description": "    ",
+      "value": "WAY",
+      "sortIndex": 199
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "WD",
+      "description": "    ",
+      "value": "WADE",
+      "sortIndex": 200
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "WF",
+      "description": "    ",
+      "value": "WHARF",
+      "sortIndex": 201
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "WK",
+      "description": "    ",
+      "value": "WALK",
+      "sortIndex": 202
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "WKY",
+      "description": "    ",
+      "value": "WALKWAY",
+      "sortIndex": 203
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "WND",
+      "description": "    ",
+      "value": "WYND",
+      "sortIndex": 204
+    },
+    {
+      "category": "MULTIAPP_STREET_TYPES",
+      "code": "YRD",
+      "description": "    ",
+      "value": "YARD",
+      "sortIndex": 205
+    }
+  ],
+  "MULTIAPP_INCOME": [
+    {
+      "category": "MULTIAPP_INCOME",
+      "code": "SLRY",
+      "value": "Salary",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_INCOME",
+      "code": "CTLK",
+      "value": "Centrelink payments",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_INCOME",
+      "code": "INVM",
+      "value": "Investment income",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_INCOME",
+      "code": "ALLW",
+      "value": "Student allowances",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_INCOME",
+      "code": "SUPR",
+      "value": "Superannuation/Pension payments",
+      "sortIndex": 5
+    }
+  ],
+  "MULTIAPP_CURRENCIES": [
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "AUD",
+      "value": "Australian Dollar",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "HKD",
+      "value": "Hong Kong Dollar",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "CNY",
+      "value": "Chinese Renminbi",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "SGD",
+      "value": "Singapore Dollar",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "JPY",
+      "value": "Japanese Yen",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "USD",
+      "value": "United States Dollar",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "CAD",
+      "value": "Canadian Dollar",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "EUR",
+      "value": "Euro",
+      "sortIndex": 8
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "GBP",
+      "value": "Great Britain Pound Sterling",
+      "sortIndex": 9
+    },
+    {
+      "category": "MULTIAPP_CURRENCIES",
+      "code": "NZD",
+      "value": "New Zealand Dollar",
+      "sortIndex": 10
+    }
+  ],
+  "MULTIAPP_INDUSTRIES": [
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "01010",
+      "value": "Agriculture",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "07540",
+      "value": "Air Transport",
+      "sortIndex": 2
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09614",
+      "value": "Banking",
+      "sortIndex": 3
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03218",
+      "value": "Beverages And Malt",
+      "sortIndex": 4
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03216",
+      "description": " ",
+      "value": "Bread, Cakes \u0026 Buscuits",
+      "sortIndex": 5
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06472",
+      "value": "Builders Hardware Dealer",
+      "sortIndex": 6
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "05411",
+      "value": "Building Construction",
+      "sortIndex": 7
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "01018",
+      "description": " ",
+      "value": "Cereal, Sheep, Cattle, Pigs",
+      "sortIndex": 8
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06484",
+      "description": " ",
+      "value": "Clothing, Fabrics, Furn",
+      "sortIndex": 9
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12924",
+      "description": " ",
+      "value": "Clubs",
+      "sortIndex": 10
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "08590",
+      "description": " ",
+      "value": "Communication",
+      "sortIndex": 11
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "05423",
+      "description": " ",
+      "value": "Concreting, Bricklaying",
+      "sortIndex": 12
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02140",
+      "description": " ",
+      "value": "Construction Materials",
+      "sortIndex": 13
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06481",
+      "description": " ",
+      "value": "Department \u0026 General Stores",
+      "sortIndex": 14
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11820",
+      "description": " ",
+      "value": "Education, Museum, Library",
+      "sortIndex": 15
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12913",
+      "value": "Entertainment",
+      "sortIndex": 16
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12910",
+      "description": "\t ",
+      "value": "Entertainment / Recreation",
+      "sortIndex": 17
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06475",
+      "description": " ",
+      "value": "Farm Properties \u0026 Prod",
+      "sortIndex": 18
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02111",
+      "value": "Ferrous Metal Ores",
+      "sortIndex": 19
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09610",
+      "description": " ",
+      "value": "Finance And Investment",
+      "sortIndex": 20
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "01043",
+      "description": " ",
+      "value": "Fishing",
+      "sortIndex": 21
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06488",
+      "description": " ",
+      "value": "Food Stores",
+      "sortIndex": 22
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03210",
+      "description": "\t ",
+      "value": "Food, Beverages \u0026 Tobacco",
+      "sortIndex": 23
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06476",
+      "description": " ",
+      "value": "Food, Drink \u0026 Tobacco",
+      "sortIndex": 24
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "01030",
+      "value": "Forestry And Logging",
+      "sortIndex": 25
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "01013",
+      "value": "Fruit",
+      "sortIndex": 26
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03213",
+      "description": " ",
+      "value": "Fruit \u0026 Vegetable Prod",
+      "sortIndex": 27
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "05410",
+      "description": " ",
+      "value": "General Construction",
+      "sortIndex": 28
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06471",
+      "value": "General Wholesalers",
+      "sortIndex": 29
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11810",
+      "value": "Health",
+      "sortIndex": 30
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11814",
+      "description": " ",
+      "value": "Hospitals/Nursing Homes",
+      "sortIndex": 31
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06478",
+      "description": " ",
+      "value": "Household Goods",
+      "sortIndex": 32
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09623",
+      "description": " ",
+      "value": "Insurance",
+      "sortIndex": 33
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09620",
+      "description": " ",
+      "value": "Insurance \u0026 Services",
+      "sortIndex": 34
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09616",
+      "description": " ",
+      "value": "Investment",
+      "sortIndex": 35
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "10712",
+      "description": " ",
+      "value": "Justice",
+      "sortIndex": 36
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03345",
+      "description": " ",
+      "value": "Leather \u0026 Leather Prod",
+      "sortIndex": 37
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09637",
+      "description": " ",
+      "value": "Legal/Accounting Services",
+      "sortIndex": 38
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11825",
+      "description": "\t ",
+      "value": "Library,Museums \u0026 Art Galleries",
+      "sortIndex": 39
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06473",
+      "description": " ",
+      "value": "Machinery / Equipment Wholesaler",
+      "sortIndex": 40
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03211",
+      "description": " ",
+      "value": "Meat Products",
+      "sortIndex": 41
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02110",
+      "description": "\t ",
+      "value": "Metalic Minerals",
+      "sortIndex": 42
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06487",
+      "description": " ",
+      "value": "Milk And Bread Vendors",
+      "sortIndex": 43
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02161",
+      "description": " ",
+      "value": "Mineral Exploration",
+      "sortIndex": 44
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06474",
+      "description": " ",
+      "value": "Mineral, Metal, Chemical",
+      "sortIndex": 45
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02162",
+      "description": " ",
+      "value": "Mining \u0026 Expl. Services",
+      "sortIndex": 46
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03340",
+      "description": " ",
+      "value": "Misc Manufacturing",
+      "sortIndex": 47
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06486",
+      "description": "\t ",
+      "value": "Motor Vehicle Dealers",
+      "sortIndex": 48
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09615",
+      "description": " ",
+      "value": "Non-Bank Finance",
+      "sortIndex": 49
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "05412",
+      "description": "\t ",
+      "value": "Non-Building Construction",
+      "sortIndex": 50
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "13990",
+      "description": " ",
+      "value": "Non-Classifiable Unit",
+      "sortIndex": 51
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02112",
+      "description": " ",
+      "value": "Non-Ferrous Metal Ores",
+      "sortIndex": 52
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02130",
+      "description": " ",
+      "value": "Oil And Gas",
+      "sortIndex": 53
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "01019",
+      "description": "\t ",
+      "value": "Other Agriculture",
+      "sortIndex": 54
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09638",
+      "description": "\t ",
+      "value": "Other Business Services",
+      "sortIndex": 55
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11849",
+      "description": "\t ",
+      "value": "Other Community Services",
+      "sortIndex": 56
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03217",
+      "description": "\t ",
+      "value": "Other Food Products",
+      "sortIndex": 57
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11815",
+      "description": " ",
+      "value": "Other Health",
+      "sortIndex": 58
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03348",
+      "description": "\t ",
+      "value": "Other Manufacturing",
+      "sortIndex": 59
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02150",
+      "description": "\t ",
+      "value": "Other Non-Metalic Minerals",
+      "sortIndex": 60
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12936",
+      "description": "\t ",
+      "value": "Other Personal Services",
+      "sortIndex": 61
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06489",
+      "description": " ",
+      "value": "Other Retailers",
+      "sortIndex": 62
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "07574",
+      "description": "\t ",
+      "value": "Other Services To Transport",
+      "sortIndex": 63
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "05424",
+      "description": "\t ",
+      "value": "Other Special Trades",
+      "sortIndex": 64
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06479",
+      "description": "\t ",
+      "value": "Other Specialist Wholesaler",
+      "sortIndex": 65
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "07550",
+      "description": " ",
+      "value": "Other Transport",
+      "sortIndex": 66
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "26000",
+      "description": " ",
+      "value": "Personal Account",
+      "sortIndex": 67
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12930",
+      "description": " ",
+      "value": "Personal Services",
+      "sortIndex": 68
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09639",
+      "description": " ",
+      "value": "Plant Hire And Leasing",
+      "sortIndex": 69
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03347",
+      "description": " ",
+      "value": "Plastic \u0026 Related Products",
+      "sortIndex": 70
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11824",
+      "description": "\t ",
+      "value": "Post School \u0026 Other Education",
+      "sortIndex": 71
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12940",
+      "description": "\t ",
+      "value": "Private Households Staff",
+      "sortIndex": 72
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09630",
+      "description": " ",
+      "value": "Property/Business Serv",
+      "sortIndex": 73
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "10710",
+      "description": " ",
+      "value": "Public Administration",
+      "sortIndex": 74
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09631",
+      "description": " ",
+      "value": "Real Estate Agents",
+      "sortIndex": 75
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09632",
+      "description": " ",
+      "value": "Real Estate Opr/Developer",
+      "sortIndex": 76
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12923",
+      "description": " ",
+      "value": "Restaurants \u0026 Hotels",
+      "sortIndex": 77
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12290",
+      "value": "Restaurants, Hotels, Clubs",
+      "sortIndex": 78
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06480",
+      "description": " ",
+      "value": "Retail Trade",
+      "sortIndex": 79
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "07511",
+      "description": " ",
+      "value": "Road Freight Transport",
+      "sortIndex": 80
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "07510",
+      "description": " ",
+      "value": "Road Transport",
+      "sortIndex": 81
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "03346",
+      "description": " ",
+      "value": "Rubber Products",
+      "sortIndex": 82
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11823",
+      "description": "\t ",
+      "value": "School Education",
+      "sortIndex": 83
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "01020",
+      "description": "\t ",
+      "value": "Services To Agriculture",
+      "sortIndex": 84
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "07573",
+      "description": "\t ",
+      "value": "Services To Air Transport",
+      "sortIndex": 85
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09617",
+      "description": " ",
+      "value": "Services To Fin/Invest",
+      "sortIndex": 86
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "09624",
+      "description": " ",
+      "value": "Services To Insurance",
+      "sortIndex": 87
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "02160",
+      "description": " ",
+      "value": "Services To Mining Nec",
+      "sortIndex": 88
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "07570",
+      "description": " ",
+      "value": "Services To Transport",
+      "sortIndex": 89
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "05420",
+      "description": "\t ",
+      "value": "Special Trade Construction",
+      "sortIndex": 90
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "12914",
+      "description": " ",
+      "value": "Sport And Recreation",
+      "sortIndex": 91
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06477",
+      "description": " ",
+      "value": "Textile \u0026 Clothing",
+      "sortIndex": 92
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11816",
+      "description": "\t ",
+      "value": "Veterinary Services",
+      "sortIndex": 93
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "07530",
+      "description": " ",
+      "value": "Water Transport",
+      "sortIndex": 94
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "04370",
+      "description": "\t ",
+      "value": "Water, Sewerage, Drainage",
+      "sortIndex": 95
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "11830",
+      "description": " ",
+      "value": "Welfare, Religious Ins",
+      "sortIndex": 96
+    },
+    {
+      "category": "MULTIAPP_INDUSTRIES",
+      "code": "06470",
+      "description": " ",
+      "value": "Wholesale Trade",
+      "sortIndex": 97
+    }
+  ],
+  "MULTIAPP_GENDER": [
+    {
+      "category": "MULTIAPP_GENDER",
+      "code": "M",
+      "description": "  ",
+      "value": "Male",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_GENDER",
+      "code": "F",
+      "description": " ",
+      "value": "Female",
+      "sortIndex": 2
+    }
+  ],
+  "MULTIAPP_PASSPORT": [
+    {
+      "category": "MULTIAPP_PASSPORT",
+      "code": "AUS",
+      "description": "    ",
+      "value": "Australian Passport",
+      "sortIndex": 1
+    },
+    {
+      "category": "MULTIAPP_PASSPORT",
+      "code": "INT",
+      "description": "    ",
+      "value": "International Passport",
+      "sortIndex": 2
+    }
+  ]
+}

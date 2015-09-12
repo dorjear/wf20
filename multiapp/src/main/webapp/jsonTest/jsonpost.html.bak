@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../libs/jquery-1.9.1.js"></script>
+<script src="json/wfLogon101.js"></script>
+<script src="json/wfLogon102.js"></script>
+<script src="json/wfLogon103.js"></script>
+<script src="json/wfLogon104.js"></script>
+<script src="json/wfLogon201.js"></script>
+<script src="json/wfLogon202.js"></script>
+<script src="json/wfLogon203.js"></script>
+<script src="json/ping.js"></script>
+<script src="json/wfLogon.js"></script>
+<script src="json/wfUserChangePassword.js"></script>
+<script src="json/wfLogoff.js"></script>
+<script src="json/wfUserNameAvailabilityCheck.js"></script>
+<script src="json/wfUserAdd.js"></script>
+<script src="json/wfUserModify.js"></script>
+<script src="json/wfUserTrainingComplete.js"></script>
+<script src="json/wfUserDelete.js"></script>
+<script src="json/wfUserResetPassword.js"></script>
+<script src="json/wfUserRetrieve.js"></script>
+<script src="json/wfUserList.js"></script>
+<script src="json/wfApplicationSearch.js"></script>
+<script src="json/wfAppCount.js"></script>
+<script src="json/wfDashboard.js"></script>
+<script src="json/wfApplicationLoad.js"></script>
+<script src="json/wfApplicationRetrieve.js"></script>
+<script src="json/wfStatusEnquiry.js"></script>
+<script src="json/wfPurchaseEnquiry.js"></script>
+<script src="json/wfPurchaseSearch.js"></script>
+<script src="json/wfFinalizePurchase.js"></script>
+<script src="json/wfProcessingQueueSave.js"></script>
+<script src="json/wfNewsEnquiry.js"></script>
+<script src="json/wfNewsSearch.js"></script>
+<script src="json/wfNewsPost.js"></script>
+<script src="json/wfAddOnSave.js"></script>
+<script src="json/wfAddOnSubmit.js"></script>
+<script src="json/wfStaffSubmitIds.js"></script>
+<script src="json/wfUpdateEvidResult.js"></script>
+<script src="json/wfUpdateFinanceAmount.js"></script>
+
+<script src="json/moMapStorePromotionAdd.js"></script>
+<script src="json/moMapStorePromotionEnquiry.js"></script>
+<script src="json/moMapStorePromotionRemove.js"></script>
+<script src="json/moPromotionAdd.js"></script>
+<script src="json/moPromotionRemove.js"></script>
+<script src="json/moPromotionEnquiry.js"></script>
+<script src="json/moPromotionUpdate.js"></script>
+<script src="json/moPromotionSearch.js"></script>
+<script src="json/moStoreAdd.js"></script>
+<script src="json/moStoreRemove.js"></script>
+<script src="json/moStoreEnquiry.js"></script>
+<script src="json/moStoreUpdate.js"></script>
+<script src="json/moStoreSearch.js"></script>
+<script src="json/moStoreUpdateBDM.js"></script>
+
+<script src="json/moGroupNextNumber.js"></script>
+<script src="json/moGroupAdd.js"></script>
+<script src="json/moGroupRemove.js"></script>
+<script src="json/moGroupUpdate.js"></script>
+<script src="json/moGroupEnquiry.js"></script>
+<script src="json/moGroupSearch.js"></script>
+<script src="json/moGroupUpdateAcctMgr.js"></script>
+
+<script src="sendJSON.js"></script>
+<script>
+var jsonReqeust;
+var jsonResponse;
+$(document).ready(
+function() {
+	$("#setWfLogonRequestButton101").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON101));
+	});	
+	$("#setWfLogonRequestButton102").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON102));
+	});	
+	$("#setWfLogonRequestButton103").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON103));
+	});	
+	$("#setWfLogonRequestButton104").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON104));
+	});	
+	$("#setWfLogonRequestButton201").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON201));
+	});	
+	$("#setWfLogonRequestButton202").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON202));
+	});	
+	$("#setWfLogonRequestButton203").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON203));
+	});	
+	
+	$("#setPingRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(pingRequestJSON));
+		$('#dataToSend').text(pingRequestJSONString);
+	});	
+
+
+	$("#setWfLogonRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON));
+	});	
+
+	$("#setWfUserChangePasswordRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserChangePasswordRequestJSON));
+	});	
+	
+	$("#setWfLogoffRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfLogoffRequestJSON));
+	});	
+	
+	$("#setWfUserNameAvailabilityCheckRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserNameAvailabilityCheckRequestJSON));
+	});
+	
+	$("#setWfUserAddRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserAddRequestJSON));
+	});	
+	
+	$("#setWfUserModifyRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserModifyRequestJSON));
+	});	
+	
+	$("#setWfUserTrainingCompleteRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserTrainingCompleteRequestJSON));
+	});	
+	
+	$("#setWfUserDeleteRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserDeleteRequestJSON));
+	});	
+	
+	$("#setWfUserResetPasswordRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserResetPasswordRequestJSON));
+	});	
+	
+	$("#setWfUserRetrieveRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserUserRetrieveRequestJSON));
+	});
+	
+	$("#setWfUserListRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUserUserListRequestJSON));
+	});
+	
+	$("#setWfApplicationSearchRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfApplicationSearchRequestJSON));
+	});
+	
+	$("#setWfAppCountRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfAppCountRequestJSON));
+	});
+	
+	$("#setWfDashboardRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfDashboardRequestJSON));
+	});
+	
+	$("#setWfApplicationLoadRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfApplicationLoadRequestJSON));
+	});
+	
+	$("#setWfApplicationRetrieveRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfApplicationRetrieveRequestJSON));
+	});
+	
+	$("#setWfStatusEnquiryRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfStatusEnquiryRequestJSON));
+	});
+	
+	$("#setWfPurchaseEnquiryRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfPurchaseEnquiryRequestJSON));
+	});
+	
+	$("#setWfPurchaseSearchRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfPurchaseSearchRequestJSON));
+	});
+	
+	$("#setWfFinalizePurchaseRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfFinalizePurchaseRequestJSON));
+	});
+	
+	$("#setWfProcessingQueueSaveRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfProcessingQueueSaveRequestJSON));
+	});
+	
+	$("#setWfNewsEnquiryRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfNewsEnquiryRequestJSON));
+	});
+	
+	$("#setWfNewsSearchRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfNewsSearchRequestJSON));
+	});
+	
+	$("#setWfNewsPostRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfNewsPostRequestJSON));
+	});
+	
+	$("#setWfAddOnSaveRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfAddOnSaveRequestJSON));
+	});
+	
+	$("#setWfAddOnSubmitRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfAddOnSubmitRequestJSON));
+	});
+	
+	$("#setWfStaffSubmitIdsRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfStaffSubmitIdsRequestJSON));
+	});
+	
+	$("#setWfUpdateEvidResultRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUpdateEvidResultRequestJSON));
+	});
+	
+	$("#setWfUpdateFinanceAmountRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(wfUpdateFinanceAmountRequestJSON));
+	});
+	
+	$("#setMoMapStorePromotionAddRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moMapStorePromotionAddRequestJSON));
+	});
+	
+	$("#setMoMapStorePromotionEnquiryRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moMapStorePromotionEnquiryRequestJSON));
+	});
+	
+	$("#setMoMapStorePromotionRemoveRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moMapStorePromotionRemoveRequestJSON));
+	});
+	
+	$("#setMoPromotionAddRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moPromotionAddRequestJSON));
+	});
+	
+	$("#setMoPromotionRemoveRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moPromotionRemoveRequestJSON));
+	});
+	
+	$("#setMoPromotionEnquiryRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moPromotionEnquiryRequestJSON));
+	});
+	
+	$("#setMoPromotionUpdateRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moPromotionUpdateRequestJSON));
+	});
+	
+	$("#setMoPromotionSearchRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moPromotionSearchRequestJSON));
+	});
+	
+	$("#setMoStoreAddRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moStoreAddRequestJSON));
+	});
+	
+	$("#setMoStoreRemoveRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moStoreRemoveRequestJSON));
+	});
+	
+	$("#setMoStoreEnquiryRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moStoreEnquiryRequestJSON));
+	});
+	
+	$("#setMoStoreUpdateRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moStoreUpdateRequestJSON));
+	});
+	
+	$("#setMoStoreSearchRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moStoreSearchRequestJSON));
+	});
+	
+	$("#setMoStoreUpdateBDMRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moStoreUpdateBDMRequestJSON));
+	});
+	
+	$("#setMoGroupNextNumberRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moGroupNextNumberRequestJSON));
+	});
+	
+	$("#setMoGroupAddRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moGroupAddRequestJSON));
+	});
+	
+	$("#setMoGroupRemoveRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moGroupRemoveRequestJSON));
+	});
+	
+	$("#setMoGroupEnquiryRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moGroupEnquiryRequestJSON));
+	});
+	
+	$("#setMoGroupUpdateRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moGroupUpdateRequestJSON));
+	});
+	
+	$("#setMoGroupSearchRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moGroupSearchRequestJSON));
+	});
+	
+	$("#setMoGroupUpdateAcctMgrRequestButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(moGroupUpdateAcctMgrRequestJSON));
+	});
+	
+	$("#lookupDataAddOneCategoryButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(lookupDataAddOneCategoryRequestJSON));
+	});
+	
+	$("#lookupDataDeleteOneCategoryButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(lookupDataDeleteOneCategoryRequestJSON));
+	});
+	
+	$("#lookupDataReplaceOneCategoryButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(lookupDataReplaceOneCategoryRequestJSON));
+	});
+}
+)
+</script>
+<script>
+
+
+function displayResponse(json){
+	traverse(json,"");
+}
+
+function hsbcStaffLogon(){
+	wfLogonRequestJSON.userName = $("#staffId").val();
+	wfLogonRequestJSON.password = $("#adPsw").val();
+	wfLogonRequestJSON.hsbcStaffFlag = 'Y';
+	//$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON));
+	sendJSONandGetResultForHSBCStaffLogon('POST','/multiapp/multiapp',traverse2);
+}
+
+</script>
+</head>
+<body>
+
+<p>Data to send: 
+<button id="setWfLogonRequestButton101">Set Role 101 Logon Request</button>
+<button id="setWfLogonRequestButton102">Set Role 102 Logon Request</button>
+<button id="setWfLogonRequestButton103">Set Role 103 Logon Request</button>
+<button id="setWfLogonRequestButton104">Set Role 104 Logon Request</button>
+<button id="setWfLogonRequestButton201">Set Role 201 Logon Request</button>
+<button id="setWfLogonRequestButton202">Set Role 202 Logon Request</button>
+<button id="setWfLogonRequestButton203">Set Role 203 Logon Request</button>
+<br />
+<button id="setPingRequestButton">Set Ping Request</button>
+<button id="setWfLogonRequestButton">Set Logon Request</button>
+<button id="setWfUserChangePasswordRequestButton">Set Change Password Request</button>
+<button id="setWfLogoffRequestButton">Set Logoff Request</button>
+<button id="setWfUserNameAvailabilityCheckRequestButton">Set User Name Availability Check Request </button>
+<button id="setWfUserAddRequestButton">Set User Add Request</button>
+<button id="setWfUserModifyRequestButton">Set User Modify Request</button>
+<button id="setWfUserTrainingCompleteRequestButton">Set User Training Complete Request</button>
+<button id="setWfUserDeleteRequestButton">Set User Delete Request</button>
+<button id="setWfUserResetPasswordRequestButton">Set User Reset Password Request</button>
+<button id="setWfUserRetrieveRequestButton">Set User Retrieve Request Button</button>
+<button id="setWfUserListRequestButton">Set User List Request Button</button>
+<button id="setWfApplicationSearchRequestButton">Set Application Search Request Button</button>
+<button id="setWfAppCountRequestButton">Set App Count Request Button</button>
+<button id="setWfDashboardRequestButton">Set Dashboard Request Button</button>
+<button id="setWfApplicationLoadRequestButton">Set Application Load Request Button</button>
+<button id="setWfApplicationRetrieveRequestButton">Set Application Retrieve Request Button</button>
+<button id="setWfStatusEnquiryRequestButton">set Wf Status Enquiry Request Button</button>
+<button id="setWfPurchaseEnquiryRequestButton">Set Purchase Enquiry Request Button</button>
+<button id="setWfPurchaseSearchRequestButton">Set Purchase Search Request Button</button>
+<button id="setWfFinalizePurchaseRequestButton">Set Finalize Purchase Request Button</button>
+<button id="setWfProcessingQueueSaveRequestButton">Set Processing Queue Save Request Button</button>
+<button id="setWfNewsEnquiryRequestButton">Set News Enquiry Request Button</button>
+<button id="setWfNewsSearchRequestButton">Set News Search Request Button</button>
+<button id="setWfNewsPostRequestButton">Set News Post Request Button</button>
+<button id="setWfAddOnSaveRequestButton">Set Add On Save Request Button</button>
+<button id="setWfAddOnSubmitRequestButton">Set Add On Submit Request Button</button>
+<button id="setWfStaffSubmitIdsRequestButton">Set Staff Submit Ids Request Button</button>
+<button id="setWfUpdateEvidResultRequestButton">Set Update Evid Result Request Button</button>
+<button id="setWfUpdateFinanceAmountRequestButton">Set Update Finance Amount Request Button</button>
+<br/>
+<button id="setMoMapStorePromotionAddRequestButton">Set Map Store Promotion Add Request Button</button>
+<button id="setMoMapStorePromotionEnquiryRequestButton">Set Map Store Promotion Enquiry Request Button</button>
+<button id="setMoMapStorePromotionRemoveRequestButton">Set Map Store Promotion Remove Request Button</button>
+<br/>
+<button id="setMoPromotionAddRequestButton">Set Promotion Add Request Button</button>
+<button id="setMoPromotionRemoveRequestButton">Set Promotion Remove Request Button</button>
+<button id="setMoPromotionEnquiryRequestButton">Set Promotion Enquiry Request Button</button>
+<button id="setMoPromotionUpdateRequestButton">Set Promotion Update Request Button</button>
+<button id="setMoPromotionSearchRequestButton">Set Promotion Search Request Button</button>
+<br/>
+<button id="setMoStoreAddRequestButton">Set Store Add Request Button</button>
+<button id="setMoStoreRemoveRequestButton">Set Store Remove Request Button</button>
+<button id="setMoStoreEnquiryRequestButton">Set Store Enquiry Request Button</button>
+<button id="setMoStoreUpdateRequestButton">Set Store Update Request Button</button>
+<button id="setMoStoreSearchRequestButton">Set Store Search Request Button</button>
+<button id="setMoStoreUpdateBDMRequestButton">Set Store Update BDM Request Button</button>
+<br/>
+<button id="setMoGroupNextNumberRequestButton">Set Group Next Number Request Button</button>
+<button id="setMoGroupAddRequestButton">Set Group Add Request Button</button>
+<button id="setMoGroupEnquiryRequestButton">Set Group Enquiry Request Button</button>
+<button id="setMoGroupUpdateRequestButton">Set Group Update Request Button</button>
+<button id="setMoGroupSearchRequestButton">Set Group Search Request Button</button>
+<button id="setMoGroupRemoveRequestButton">Set Group Remove Request Button</button>
+<button id="setMoGroupUpdateAcctMgrRequestButton">Set Group Update Acct Mgr Request Button</button>
+<br/>
+
+<textarea name="dataToSend" id="dataToSend" cols ="150" rows = "10"></textarea></p>
+UserName: <input id="staffId" type="text"/> Password:<input id="adPsw" type="password"/><button onclick="hsbcStaffLogon()">HSBC AD Logon</button><p/>
+
+<button onclick="sendJSONandGetResult('POST','/multiapp/multiapp',traverse2)">Send JSON</button>
+<button onclick="window.open('upload.jsp')">Upload Document</button>
+<h2>Result:</h2>
+<div id="result"> </div>
+</body>
+</html>
+

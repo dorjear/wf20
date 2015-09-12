@@ -1,0 +1,6 @@
+{
+	"cmd": "ping",
+	"merchantId":"......",
+	"client_reference":"ref-1234",
+	"responseStatus": "success"
+}

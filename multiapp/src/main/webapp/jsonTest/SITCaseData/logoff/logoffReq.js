@@ -1,0 +1,3 @@
+var logoffReq ={
+	"cmd": "wfLogoff"
+};

@@ -1,0 +1,10 @@
+[
+  {
+    "applicationnumber": "JS22351890123",
+    "applicationstatus": "P"
+  },
+  {
+    "applicationnumber": "JS22351890123",
+    "applicationstatus": "A"
+  }
+]

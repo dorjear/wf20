@@ -1,0 +1,403 @@
+{
+  "consentCreditLimitIncrease": false,
+  "consentOverLimit": false,
+  "isLocked_": false,
+  "applicant": {
+    "numOfDependents_": 0,
+    "motherMaidenName_": {
+      "value_": "mum"
+    },
+    "partner_": {
+      "salaryIncome_": {
+        "gross_": {
+          "amount_": 3500.0
+        },
+        "frequency_": {
+          "identifier_": "M"
+        }
+      },
+      "gender_": {
+        "identifier_": "F"
+      },
+      "nationality_": {
+        "identifier_": "AUS"
+      },
+      "previousAddress_": {
+        "city": "Sydney",
+        "zip": "4567",
+        "unit": "23",
+        "streetName": "George",
+        "streetType": "ST",
+        "state": {
+          "identifier_": "NSW"
+        },
+        "country": {
+          "identifier_": "AUS"
+        }
+      },
+      "currentAddress_": {
+        "city": "Sydney",
+        "zip": "2345",
+        "unit": "12",
+        "streetName": "George",
+        "streetType": "ST",
+        "state": {
+          "identifier_": "NSW"
+        },
+        "country": {
+          "identifier_": "AUS"
+        },
+        "tenure": {
+          "year_": 1,
+          "month_": 2,
+          "days_": 0,
+          "hours_": 0,
+          "mins_": 0,
+          "seconds_": 0
+        },
+        "residentialStatus": {
+          "identifier_": "O"
+        }
+      },
+      "detailName_": {
+        "firstName_": "Mary",
+        "middleName_": "C",
+        "lastName_": "Johnes",
+        "prefix_": "Ms"
+      },
+      "homePhoneNumber_": {
+        "areaCode_": "",
+        "value_": "0277778888"
+      },
+      "mobilePhoneNumber_": {
+        "areaCode_": "",
+        "value_": "0477778889"
+      },
+      "dateofBirth_": "Dec 6, 1980 12:00:00 AM",
+      "supplementaryInformation_": {
+        "permanentAustralianResident": true
+      },
+      "identifications": {
+        "driversLicence": {
+          "stateCode": {
+            "identifier_": "NSW"
+          },
+          "number": "123457890",
+          "dateOfExpiry": "Dec 5, 2013 12:00:00 AM"
+        },
+        "medicare": {
+          "cardNumber": "645521556645625",
+          "referenceNumber": 2
+        },
+        "passport": {
+          "placeOfBirth": "some place",
+          "countryCode": {
+            "identifier_": "AUS"
+          },
+          "countryOfBirth": {
+            "identifier_": "CAN"
+          },
+          "number": "P123457890"
+        },
+        "mainPhotoIdType": "Australian drivers licence"
+      },
+      "employment_": {
+        "occupation_": {
+          "identifier_": "Accountant"
+        },
+        "tenure_": {
+          "year_": 3,
+          "month_": 2,
+          "days_": 0,
+          "hours_": 0,
+          "mins_": 0,
+          "seconds_": 0
+        },
+        "employer_": {
+          "address_": [
+            {
+              "country": {
+                "identifier_": "AUS"
+              },
+              "addressLineList_": [
+                "10 Smith Street",
+                "Parramatta NSW 2150"
+              ]
+            }
+          ],
+          "phoneList_": [
+            {
+              "areaCode_": "",
+              "value_": "0244445555"
+            }
+          ],
+          "name_": {
+            "name_": "HSBC Bank Australia"
+          }
+        },
+        "type_": {
+          "identifier_": "Accounting/Auditing"
+        },
+        "employmentstatus_": {
+          "identifier_": "F"
+        },
+        "jobTitle_": {
+          "identifier_": "Analyst"
+        }
+      },
+      "vdcRequired": true,
+      "taxFileNumber": "739111222",
+      "otherNationalities": [
+        {
+          "identifier_": "CAN"
+        },
+        {
+          "identifier_": "IRL"
+        },
+        {
+          "identifier_": "JPN"
+        }
+      ],
+      "taxTFNException": {
+        "identifier_": "Norfolk Island resident"
+      },
+      "countryOfBirth": {
+        "identifier_": "AUS"
+      },
+      "countryOfTaxResidence": {
+        "identifier_": "CAN"
+      },
+      "sourceOfIncome": {
+        "identifier_": "Salary"
+      },
+      "addressList_": [
+        {
+          "country": {
+            "identifier_": "AUS"
+          },
+          "addressLineList_": [
+            "286 Sussex Street",
+            "Sydney NSW 2150"
+          ]
+        }
+      ],
+      "emailList_": [
+        "maryjohnes1234@hotmail.com"
+      ]
+    },
+    "gender_": {
+      "identifier_": "M"
+    },
+    "nationality_": {
+      "identifier_": "AUS"
+    },
+    "maritalStatus_": {
+      "identifier_": "M"
+    },
+    "previousAddress_": {
+      "city": "Sydney",
+      "zip": "4567",
+      "unit": "23",
+      "streetName": "George",
+      "streetType": "ST",
+      "state": {
+        "identifier_": "NSW"
+      },
+      "country": {
+        "identifier_": "AUS"
+      }
+    },
+    "currentAddress_": {
+      "city": "Sydney",
+      "zip": "2345",
+      "unit": "12",
+      "streetName": "George",
+      "streetType": "ST",
+      "state": {
+        "identifier_": "NSW"
+      },
+      "country": {
+        "identifier_": "AUS"
+      },
+      "tenure": {
+        "year_": 1,
+        "month_": 2,
+        "days_": 0,
+        "hours_": 0,
+        "mins_": 0,
+        "seconds_": 0
+      },
+      "residentialStatus": {
+        "identifier_": "O"
+      }
+    },
+    "mailingAddress_": {
+      "country": {
+        "identifier_": "AUS"
+      },
+      "addressLineList_": [
+        "580 George St",
+        "Sydney NSW 2000"
+      ]
+    },
+    "detailName_": {
+      "firstName_": "John",
+      "middleName_": "M",
+      "lastName_": "Smith",
+      "prefix_": "Mr"
+    },
+    "homePhoneNumber_": {
+      "areaCode_": "",
+      "value_": "0299998888"
+    },
+    "mobilePhoneNumber_": {
+      "areaCode_": "",
+      "value_": "0422223333"
+    },
+    "dateofBirth_": "Dec 5, 1980 12:00:00 AM",
+    "supplementaryInformation_": {
+      "hsbcCustomer_": true,
+      "permanentAustralianResident": true,
+      "hsbcCustomerNumber_": "4265000000000005",
+      "associationTenure_": {
+        "year_": 3,
+        "month_": 5,
+        "days_": 0,
+        "hours_": 0,
+        "mins_": 0,
+        "seconds_": 0
+      }
+    },
+    "identifications": {
+      "driversLicence": {
+        "stateCode": {
+          "identifier_": "NSW"
+        },
+        "number": "123457890",
+        "dateOfExpiry": "Dec 5, 2013 12:00:00 AM"
+      },
+      "medicare": {
+        "cardNumber": "645521556645625",
+        "referenceNumber": 2
+      },
+      "passport": {
+        "placeOfBirth": "some place",
+        "countryCode": {
+          "identifier_": "AUS"
+        },
+        "countryOfBirth": {
+          "identifier_": "CAN"
+        },
+        "number": "P123457890"
+      },
+      "mainPhotoIdType": "International passport"
+    },
+    "employment_": {
+      "occupation_": {
+        "identifier_": "Accountant"
+      },
+      "tenure_": {
+        "year_": 3,
+        "month_": 2,
+        "days_": 0,
+        "hours_": 0,
+        "mins_": 0,
+        "seconds_": 0
+      },
+      "employer_": {
+        "address_": [
+          {
+            "country": {
+              "identifier_": "AUS"
+            },
+            "addressLineList_": [
+              "10 Smith Street",
+              "Parramatta NSW 2150"
+            ]
+          }
+        ],
+        "phoneList_": [
+          {
+            "areaCode_": "",
+            "value_": "0244445555"
+          }
+        ],
+        "name_": {
+          "name_": "HSBC Bank Australia"
+        }
+      },
+      "type_": {
+        "identifier_": "Accounting/Auditing"
+      },
+      "employmentstatus_": {
+        "identifier_": "F"
+      },
+      "jobTitle_": {
+        "identifier_": "Analyst"
+      }
+    },
+    "multiCurrencyAccountCurrencies": [
+      {
+        "type": "M",
+        "currencyValue": {
+          "identifier_": "AUS"
+        }
+      },
+      {
+        "type": "M",
+        "currencyValue": {
+          "identifier_": "USD"
+        }
+      },
+      {
+        "type": "M",
+        "currencyValue": {
+          "identifier_": "EUR"
+        }
+      }
+    ],
+    "vdcRequired": true,
+    "taxFileNumber": "739111222",
+    "otherNationalities": [
+      {
+        "identifier_": "CAN"
+      },
+      {
+        "identifier_": "IRL"
+      },
+      {
+        "identifier_": "JPN"
+      }
+    ],
+    "accountBundle": [
+      {
+        "identifier_": "CMG"
+      }
+    ],
+    "taxTFNException": {
+      "identifier_": "Norfolk Island resident"
+    },
+    "countryOfBirth": {
+      "identifier_": "AUS"
+    },
+    "countryOfTaxResidence": {
+      "identifier_": "CAN"
+    },
+    "sourceOfIncome": {
+      "identifier_": "Centrelink payments"
+    },
+    "emailList_": [
+      "meghashyam16@gmail.com"
+    ]
+  },
+  "agreePrivacyPolicy": true,
+  "agreePCD": false,
+  "agreeConditonsOfUse": false,
+  "agreeInsurancePCD": false,
+  "agreeFSGnPDSP": false,
+  "hubApplicationSequence": 0,
+  "ostName": {
+    "identifier_": "MyOSTName"
+  },
+  "applicationNumber_": "JS22351678123"
+}

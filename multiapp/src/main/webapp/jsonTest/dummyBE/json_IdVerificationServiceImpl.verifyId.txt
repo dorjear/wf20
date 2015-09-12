@@ -1,0 +1,23 @@
+{
+  "overallMatch": false,
+  "totalPoints": 0.0,
+  "safeHarbourMatch": true,
+  "exclusionSharedFraudMatch": false,
+  "exclusionPEPMatch": false,
+  "exclusionSanctionsMatch": false,
+  "exclusionVelocityMatch": false,
+  "ausElectorialRollMatch": true,
+  "ausPassportMatch": true,
+  "intlPassportMatch": true,
+  "medicareMatch": true,
+  "driversLicenceMatch": true,
+  "idMatch": false,
+  "dateOfBirthMatch": false,
+  "nameNumOfMatch": 0,
+  "addressNumOfMatch": 0,
+  "selfVerificationDone": false,
+  "evidDate": "03/04/2013",
+  "evidVip": "N",
+  "evidResult": "Y",
+  "driversLicenceCaptchaFailed":true
+}

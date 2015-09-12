@@ -1,0 +1,3 @@
+var trainingCompleteReq = {
+	"cmd" : "wfUserTrainingComplete"
+};

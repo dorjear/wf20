@@ -1,0 +1,3 @@
+var wfLogoffRequestJSON ={
+	"cmd": "wfLogoff"
+};

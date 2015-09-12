@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.9.1.js"></script>
+<script src="SITCaseData/logon/logon101Req.js"></script>
+<script src="SITCaseData/logon/logon202Req.js"></script>
+<script src="SITCaseData/logon/logon203Req.js"></script>
+<script src="SITCaseData/logoff/logoffReq.js"></script>
+<script src="SITCaseData/userAdd/userAdd202Req.js"></script>
+<script src="SITCaseData/userAdd/userAdd203Req.js"></script>
+<script src="SITCaseData/userAdd/userAdd102Req.js"></script>
+<script src="SITCaseData/changePsw/changePswReq.js"></script>
+<script src="SITCaseData/completeTraining/trainingCompleteReq.js"></script>
+<script src="SITCaseData/userDelete/userDelete203Req.js"></script>
+<script src="SITCaseData/userModify/userModify202Req.js"></script>
+<script src="SITCaseData/userResetPsw/userResetPsw202Req.js"></script>
+<script src="SITCaseData/userRetrieve/userRetrieve202Req.js"></script>
+<script src="SITCaseData/userRetrieve/userRetrieve203Req.js"></script>
+<script src="SITCaseData/userList/userListBingleeReq.js"></script>
+<script src="SITCaseData/userNameAvailabilityCheck/userNameAvailabilityCheckBingleeStaffReq.js"></script>
+<script src="json/wfLogon.js"></script>
+<script src="sendJSON.js"></script>
+<script>
+var jsonReqeust;
+var jsonResponse;
+$(document).ready(
+function() {
+	$("#logon101Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(logon101Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+
+	$("#userAdd202Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userAdd202Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#logoffButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(logoffReq));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+////////////////////////////
+	$("#logon202Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(logon202Req));
+		//sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+
+	$("#202ChangePswButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(changePswReq));
+	});	
+	
+	$("#202TrainingCompleteButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(trainingCompleteReq));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+
+	$("#userNameCheck203Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userNameAvailabilityCheckBingleeStaffReq));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#userAdd203Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userAdd203Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#userRetrieve203Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userRetrieve203Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#userRetrieve202Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userRetrieve202Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#userAdd102Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userAdd102Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#userDelete203Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userDelete203Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+
+	$("#logoff202Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(logoffReq));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+
+	$("#logon203Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(logon203Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+///////////////////////////////////
+	$("#logon101Button2").click( function(e){
+		$('#dataToSend').text(JSON.stringify(logon101Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+
+	$("#userListBingleeButton").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userListBingleeReq));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#userModify202Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userModify202Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#userReset202Button").click( function(e){
+		$('#dataToSend').text(JSON.stringify(userResetPsw202Req));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+	
+	$("#logoffButton2").click( function(e){
+		$('#dataToSend').text(JSON.stringify(logoffReq));
+		sendJSONandGetResult('POST','/webfinance/multiapp',traverse2);
+	});	
+
+///////////////////////////////////
+}
+)
+</script>
+<script>
+
+
+function displayResponse(json){
+	traverse(json,"");
+}
+
+function hsbcStaffLogon(){
+	wfLogonRequestJSON.userName = $("#staffId").val();
+	wfLogonRequestJSON.password = $("#adPsw").val();
+	wfLogonRequestJSON.hsbcStaffFlag = 'Y';
+	//$('#dataToSend').text(JSON.stringify(wfLogonRequestJSON));
+	sendJSONandGetResultForHSBCStaffLogon('POST','/webfinance/multiapp',traverse2);
+}
+
+</script>
+</head>
+<body>
+UserName: <input id="staffId" type="text"/> Password:<input id="adPsw" type="password"/><button onclick="hsbcStaffLogon()">HSBC AD Logon</button><p/>
+
+<p>Data to send: </P>
+<textarea name="dataToSend" id="dataToSend" cols ="150" rows = "4"></textarea></p>
+<button onclick="sendJSONandGetResult('POST','/webfinance/multiapp',traverse2)">Send JSON</button>
+<button onclick="window.open('upload.jsp')">Upload Document</button>
+<br/><P/>
+<h2>Common Functions</h2>
+<button id="logoffButton">Logoff</button> 
+<button id="202ChangePswButton">Change Password</button>
+<button id="202TrainingCompleteButton">Complete Training</button>
+<h2>SIT Stories</h2>
+
+<button id="logon101Button">HSBC Admin Logon</button>
+<button id="userAdd202Button">Add BingleeAdmin</button>
+Click Logoff
+<br/>
+<button id="logon202Button">Binglee Admin Logon</button>
+Change Password, 
+Complete Training
+<button id="userNameCheck203Button">Check Username BingleeStaff</button>
+<button id="userAdd203Button">Add BingleeStaff</button>
+Check Username BingleeStaff
+<button id="userRetrieve203Button">Retrieve BingleeStaff</button>
+<button id="userRetrieve202Button">Retrieve BingleeAdmin</button>
+<button id="userAdd102Button">Add HSBC Operator</button>
+Logoff
+<br/>
+<button id="logon203Button">Binglee Staff Logon</button> Change Passowrd , Complete Training,  Add Binglee Staff, Logoff
+<br/>
+Binglee Admin Logon <button id="userDelete203Button">Delete BingleeStaff</button> Logoff, Binglee Staff Logon
+<br/>
+<button id="logon101Button2">HSBC Admin Logon</button>
+<button id="userListBingleeButton">List Binglee staff</button>
+<button id="userModify202Button">Modify BingleeAdmin to staff</button>
+<button id="userReset202Button">Reset BingleeAdmin</button>
+Logoff
+<br/>
+Binglee Admin Logon, Check Username BingleeStaff, Add Binglee Staff
+<h2>Response JSON Data:</h2>
+<div id="result"> </div>
+</body>
+</html>
+

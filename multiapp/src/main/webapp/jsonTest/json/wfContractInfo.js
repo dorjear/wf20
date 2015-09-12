@@ -1,0 +1,3 @@
+var wfContractInfoRequestJSON = {
+	"cmd" : "wfContractInfo"
+};

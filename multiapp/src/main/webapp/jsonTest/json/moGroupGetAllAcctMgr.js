@@ -1,0 +1,3 @@
+var moGroupGetAllAcctMgrRequestJSON = {
+	"cmd" : "moGetAllAcctMgr"
+};
