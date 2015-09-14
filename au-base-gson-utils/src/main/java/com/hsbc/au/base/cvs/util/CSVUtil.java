@@ -21,7 +21,7 @@ public class CSVUtil {
 			List<String> lines = FileUtils.readLines(file);
 		    for(String line : lines){
 		        String strArray[] = line.split(",");
-		        if(strArray.length>keyColumnIndex+1 && strArray.length>valueColumnIndex+1){
+		        if(strArray.length>keyColumnIndex && strArray.length>valueColumnIndex){
 		        	map.put(strArray[keyColumnIndex], strArray[valueColumnIndex]);
 		        }
 		    }

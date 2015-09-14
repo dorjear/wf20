@@ -1,7 +1,7 @@
-package com.hsbc.au.web.processor.common;
+package com.hsbc.au.web.processor.util;
 
 
-public class DemoDataUtil{
+public class DemoResponseUtil{
 	private static String webRoot="";
 	private static final String DEMO_FILE_EXTENSION=".txt";
 	private static final String DEMO_FILE_FOLDER="jsonTest/json/response/";

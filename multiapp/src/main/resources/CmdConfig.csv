@@ -1,0 +1,2 @@
+cmd,request,processor
+getLookUpData,com.hsbc.au.multiapp.ralf.form.request.FormRequestBase,com.hsbc.au.web.processor.common.LookUpDataProcessor
