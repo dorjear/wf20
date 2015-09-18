@@ -31,7 +31,7 @@ public class JsonFrontController {
         return "welcome";
     }
  
-    @RequestMapping(value = "/multiapp", method = RequestMethod.POST)
+    @RequestMapping(value = "/*", method = RequestMethod.POST)
     public @ResponseBody String handleRequestJsonAndResponseJson(@RequestBody String requestStr, HttpServletRequest request) {
 		try{
 	    	String responseStr = defaultErrorResponse;

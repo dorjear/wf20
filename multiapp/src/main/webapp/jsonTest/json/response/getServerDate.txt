@@ -1,0 +1,7 @@
+{
+    "cmd": "",
+    "responseStatus": "",
+    "errorCode": "",
+    "validationErrors": [],
+    "isEnabled": true
+}

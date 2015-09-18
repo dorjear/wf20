@@ -1,0 +1,32 @@
+{
+	"cmd": "ralfLogon",
+	"responseStatus": "success",
+	"errorCode": "",
+	"validationErrors": [{
+		"code": "",
+		"desc": ""
+	}],
+	"user": {
+		"userId": "1101",
+		"roles": ["1101"],
+		"firstName": "Supy",
+		"middleName": "Kakacek",
+		"lastName": "Splier",
+		"email": "becquerelite@pleadable.net",
+		"outofficeStart": "31/12/2015",
+		"outofficeEnd": "31/12/2016",
+		"riskType": "",
+		"productGroups": [],
+		"campaignEditor": false,
+		"managerId": "M123456789",
+		"readonly": false,
+		"mobile": "61417238460",
+		"hubId": "123456789",
+		"idApprover": false,
+		"appSubmitter": false,
+		"autoAllocation": false,
+		"leadCapacity": 1234,
+		"applicationCapacity": 1234,
+		"allowClickToAssist": false
+	}
+}

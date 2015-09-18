@@ -1,0 +1,469 @@
+* {
+  font-family: Univers, 'Source Sans Pro', sans-serif;
+}
+body {
+  font-size: 12px;
+  background: #ffffff url("../img/mass_landscape_T.jpg") no-repeat 50% 15%;
+}
+#header {
+  background-color: #404040;
+}
+#content {
+  left: 200px;
+}
+#nav ul a {
+  font-size: 11px;
+}
+#nav .show {
+  font-weight: normal;
+}
+.navbar-text {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+}
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+  .navbar-text {
+    font-size: 12px;
+  }
+}
+.navbar-text .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-top: 5px;
+}
+.navbar-text .breadcrumb a {
+  color: lightblue;
+}
+.navbar-text .breadcrumb li {
+  color: lightblue;
+}
+aside {
+  background-color: transparent;
+}
+#nav-container {
+  width: 200px;
+  background-color: transparent;
+}
+#nav-container #nav-wrapper {
+  border: none;
+}
+#nav-container #nav-wrapper .slimScrollDiv > ul > li {
+  background-color: white;
+  border-right: 2px solid #E5E5E5;
+}
+.nav-tabs > li > a {
+  background-color: #F6F6F6;
+}
+.nav-tabs li.active a {
+  background-color: #ccc;
+}
+.breadcrumb {
+  background-color: white;
+}
+.dev-question,
+.shame {
+  background-color: yellow;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 15px 5px;
+  background-color: #f3f3f3;
+}
+table.table thead tr th {
+  font-size: 12px;
+}
+table.table thead tr.filter input.form-control {
+  padding: 2px;
+  font-size: 11px;
+  font-weight: normal;
+  height: 100%;
+}
+table.table thead tr.filter th {
+  padding: 2px;
+}
+div.DTTT_container {
+  float: left;
+  margin-right: 15px;
+}
+table.table tbody tr td,
+table.table tbody tr th {
+  font-size: 12px;
+}
+@-moz-document url-prefix() {
+  fieldset {
+    display: table-cell;
+  }
+}
+.top-header {
+  background-color: black;
+}
+.top-header .logo {
+  background-color: black;
+  line-height: 37px;
+  width: 180px;
+}
+.top-header .logo img {
+  height: 46px;
+}
+.radio-inline,
+.checkbox-inline {
+  margin-top: 0px;
+}
+select {
+  max-width: 220px;
+}
+span.currency-input {
+  border: 0px;
+  padding: 0px;
+}
+input.form-control[type="text"] {
+  max-width: 220px;
+}
+input.form-control[type="text"].age {
+  width: 50px;
+}
+input.form-control[type="text"].geocoder {
+  display: inline-block;
+  max-width: 400px;
+}
+label input[type=checkbox] {
+  vertical-align: sub;
+}
+.form-inline .form-group {
+  margin-left: 15px;
+}
+.dataTable input.form-control[type="text"] {
+  max-width: none;
+}
+.multi-checkbox input[type=checkbox] {
+  margin-right: 5px;
+}
+.multi-checkbox label {
+  font-weight: normal;
+}
+label {
+  font-size: 12px;
+}
+fieldset {
+  background-color: #fbfbfb;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+fieldset > div {
+  padding-left: 5px;
+}
+fieldset legend {
+  font-size: 12px;
+  font-weight: bold;
+}
+.legend-item {
+  padding: 0 10px;
+  display: inline-block;
+}
+.legend-item i {
+  font-size: 16px;
+  font-weight: bold;
+}
+.legend-item i.ntb {
+  color: lightblue;
+}
+.legend-item i.pot {
+  color: green;
+}
+.legend-item i.ext {
+  color: purple;
+}
+.label {
+  padding: 3px 5px;
+}
+.panel-heading {
+  font-size: 18px;
+  padding: 20px 10;
+}
+div[id^="confi"],
+div[id*=" conf"] {
+  width: 215px;
+  text-align: center;
+}
+div[id^="confi"] .popover-content a.btn-primray,
+div[id*=" conf"] .popover-content a.btn-primray {
+  margin-right: 15px;
+}
+/**BUTTON*******************************************************************/
+a {
+  cursor: pointer;
+}
+a.icn-md {
+  padding-top: 4px;
+  font-size: 24px;
+}
+.btn,
+a.btn {
+  color: white;
+  height: 32px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.btn.btn-link,
+a.btn.btn-link {
+  color: darkblue;
+}
+.btn.disabled,
+a.btn.disabled {
+  color: #d1d1d1;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: #e1e1e1;
+}
+.btn.disabled:hover,
+a.btn.disabled:hover {
+  background: #ffffff;
+}
+.btn:hover,
+a.btn:hover {
+  background: #d1d1d1;
+}
+.btn.btn-primary,
+a.btn.btn-primary {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+  border: 1px solid #696;
+  /*gradient background color */
+  background: #e22c1f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e22c1f 0%, #ab1806 50%, #e22c1f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e22c1f), color-stop(50%, #ab1806), color-stop(100%, #e22c1f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e22c1f 0%, #ab1806 50%, #e22c1f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e22c1f 0%, #ab1806 50%, #e22c1f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e22c1f 0%, #ab1806 50%, #e22c1f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #e22c1f 0%, #ab1806 50%, #e22c1f 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e22c1f', endColorstr='#e22c1f', GradientType=0);
+  /* IE6-9 */
+}
+.btn.btn-primary.disabled,
+a.btn.btn-primary.disabled {
+  background: #e42e20;
+  opacity: 0.3;
+}
+.btn.btn-primary:hover,
+a.btn.btn-primary:hover {
+  background: #e42e20 !important;
+}
+.btn.btn-primary.small,
+a.btn.btn-primary.small {
+  width: 90px;
+  height: 23px;
+  font-size: 10px;
+  line-height: inherit;
+}
+.btn.btn-default,
+a.btn.btn-default {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+  color: black;
+  background: linear-gradient(to bottom, white 1%, #dddddd 50%, white 100%);
+}
+.btn.btn-default:hover,
+a.btn.btn-default:hover {
+  background: #ffffff;
+}
+.btn.active,
+a.btn.active {
+  color: darkred;
+}
+.btn.btn-xs,
+a.btn.btn-xs {
+  padding-top: 5px;
+}
+.dl-horizontal dd,
+.dl-horizontal dt {
+  padding-top: 7px;
+}
+.dl-horizontal dt {
+  white-space: normal;
+}
+.select2-container--default .select2-selection--single {
+  border-radius: 0px;
+}
+.select2-container .select2-selection--single {
+  height: 32px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  height: 32px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 32px;
+}
+table.dataTable tfoot {
+  display: table-header-group;
+}
+table.dataTable thead .sorting {
+  background-image: url("../img/data-table/sort_both.png");
+}
+table.dataTable thead .sorting_asc {
+  background-image: url("../img/data-table/sort_asc.png");
+}
+table.dataTable thead .sorting_desc {
+  background-image: url("../img/data-table/sort_desc.png");
+}
+table.dataTable thead .sorting_asc_disabled {
+  background-image: url("../img/data-table/sort_asc_disabled.png");
+}
+table.dataTable thead .sorting_desc_disabled {
+  background-image: url("../img/data-table/sort_desc_disabled.png");
+}
+table.dataTable tfoot.filter th {
+  padding: 0px;
+}
+table.dataTable tfoot.filter th input {
+  font-size: 11px;
+  height: 100%;
+  line-height: 11px;
+  font-weight: normal;
+}
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .paginate_button,
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter {
+  font-weight: bold;
+  font-size: 10px;
+}
+.table > tbody > tr.active > td {
+  background-color: #ABB9D3;
+}
+.modal-backdrop {
+  z-index: 1033;
+}
+.dl-horizontal dt {
+  font-size: 12px;
+}
+#bs-example-navbar-collapse-1 .action-button {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+/*** ***/
+/* custom inclusion of right, left and below tabs */
+/*  bhoechie tab */
+div.bhoechie-tab-container {
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 50px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group > a {
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group > a:first-child {
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group > a:last-child {
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group > a.active:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #db0011;
+}
+div.bhoechie-tab-menu div.list-group  > a .glyphicon,
+div.bhoechie-tab-menu div.list-group  > a .fa {
+  color: #db0011;
+}
+div.bhoechie-tab-menu div.list-group  > a.active,
+div.bhoechie-tab-menu div.list-group  > a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group  > a.active .fa {
+  background-color: #db0011;
+  background-image: #db0011;
+  color: #ffffff;
+}
+div.bhoechie-tab-content {
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+  display: none;
+}
+textarea.code {
+  font-family: "Source Code Pro";
+  font-size: 11px;
+}
+.nav > li > a {
+  padding: 8px;
+}
+.sticker-wrap.out {
+  position: fixed;
+  margin-right: 30px;
+  width: 100%;
+  top: 50px;
+  z-index: 100;
+}
+.margin-bottom {
+  margin-bottom: 15px;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .modal-dialog {
+    width: 90%;
+  }
+}
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1129px) {
+  .modal-dialog.modal-md {
+    max-width: 60%;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1128px) {
+  .modal-dialog.modal-md {
+    max-width: 60%;
+  }
+}
+.modal-header .close {
+  margin: 15px;
+}
+.modal-header h4 {
+  padding-left: 15px;
+}

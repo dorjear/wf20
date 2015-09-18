@@ -15,6 +15,7 @@ import com.hsbc.au.web.processor.util.DemoResponseUtil;
 public class LookUpDataProcessor implements RequestProcessor{
 	@Override
 	public FormResponseBase process(FormRequestBase formReq, HttpServletRequest httpReq){
+		System.out.println(this.getClass());
 		String fileName = formReq.getCmd();
 
     	String fileFullPath = DemoResponseUtil.getFullPath(fileName);
