@@ -1,5 +1,5 @@
 <%@page language="java" contentType="text/html; charset=utf-8" 
-import="com.hsbc.multiapp.wf.web.common.util.WFConstants"%>
+import="com.dorjear.ralf.web.processor.util.WFConstants"%>
 
 <html>
 <head>
