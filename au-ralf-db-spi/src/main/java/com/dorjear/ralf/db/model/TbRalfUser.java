@@ -16,6 +16,9 @@ public class TbRalfUser {
 	@Column(name = "user_id", nullable = false, length=30)
 	private String userId;
 	
+	@Column(name = "password", nullable = false, length=256)
+	private String password;
+
 	@Column(name = "first_name", nullable = true, length=30)
 	private String firstName;
 
@@ -177,6 +180,14 @@ public class TbRalfUser {
 
 	public void setDetail(String detail) {
 		this.detail = detail;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 	
 	
