@@ -1,4 +1,4 @@
-package com.dorjear.ralf.web.processor.common;
+package com.dorjear.ralf.web.processor.lookup;
 
 import javax.servlet.http.HttpServletRequest;
 

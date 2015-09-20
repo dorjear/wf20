@@ -1,2 +1,0 @@
-cmd,request,processor
-getLookUpData,com.dorjear.ralf.form.base.FormRequestBase,com.hsbc.au.web.processor.common.LookUpDataProcessor
