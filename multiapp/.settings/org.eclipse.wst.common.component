@@ -14,6 +14,12 @@
         <dependent-module archiveName="au-ralf-form-objects-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/au-ralf-form-objects/au-ralf-form-objects">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="au-ralf-db-service-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/au-ralf-db-service/au-ralf-db-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="au-ralf-db-spi-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/au-ralf-db-spi/au-ralf-db-spi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="java-output-path" value="/multiapp/build/classes"/>
         <property name="context-root" value="multiapp"/>
     </wb-module>

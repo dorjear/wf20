@@ -17,6 +17,7 @@ public class UserServiceTester {
 		UserService service = (UserService) context.getBean("userService");
 		TbRalfUser tbUser = new TbRalfUser();
 		tbUser.setUserId("dorjear");
+		tbUser.setPassword("abc123");
 		tbUser.setFirstName("Tony");
 		tbUser.setLastName("King");
 		service.save(tbUser);

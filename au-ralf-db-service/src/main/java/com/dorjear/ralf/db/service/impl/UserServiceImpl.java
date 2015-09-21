@@ -2,6 +2,8 @@ package com.dorjear.ralf.db.service.impl;
 
 import java.util.List;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,12 +15,15 @@ import com.dorjear.ralf.db.service.util.HibernateGenericDao;
 @Service("userService")
 @Transactional
 public class UserServiceImpl implements UserService{
-
+	private final Log ralfDebugger = LogFactory.getLog("ralfDebug."+this.getClass().getName());
+	private final Log ralfAuditor = LogFactory.getLog("ralfAudit."+this.getClass().getName());
 	@Autowired
 	HibernateGenericDao<TbRalfUser, String> tbRalfUserDao;
 	
 	@Override
 	public void save(TbRalfUser user){
+		ralfDebugger.debug(this.getClass());
+		ralfAuditor.info("save user " + user.getUserId());
 		tbRalfUserDao.save(user);
 	}
 
