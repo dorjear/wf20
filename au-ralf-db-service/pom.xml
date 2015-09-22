@@ -66,5 +66,10 @@
 			<artifactId>au-ralf-db-spi</artifactId>
 			<version>1.0.0</version>
 		</dependency>
+		<dependency>
+			<groupId>dorjear</groupId>
+			<artifactId>au-base-gson-utils</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 </project>

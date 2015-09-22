@@ -13,7 +13,7 @@ public class FormUser {
 	
 	@NotBlank
 	@Size(min = 5, max = 20)
-	private String pasword;
+	private String password;
 
 	@Size(min = 1)
 	private String[] roles;
@@ -274,11 +274,11 @@ public class FormUser {
 	public void setAllowAccessStaffProfile(Boolean allowAccessStaffProfile) {
 		this.allowAccessStaffProfile = allowAccessStaffProfile;
 	}
-	public String getPasword() {
-		return pasword;
+	public String getPassword() {
+		return password;
 	}
-	public void setPasword(String pasword) {
-		this.pasword = pasword;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 	
 }

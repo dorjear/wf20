@@ -1,3 +1,5 @@
 cmd,request,processor
 getLookUpData,com.dorjear.ralf.form.base.FormRequestBase,com.dorjear.ralf.web.processor.lookup.LookUpDataProcessor
-getLookUpData,com.dorjear.ralf.form.user.FormUserRequestBase,com.dorjear.ralf.web.processor.user.RalfUserAddProcessor
+ralfLogon,com.dorjear.ralf.form.logonoff.FormLogonRequest,com.dorjear.ralf.web.processor.logonoff.RalfLogonProcessor
+ralfUserAdd,com.dorjear.ralf.form.user.FormUserRequestBase,com.dorjear.ralf.web.processor.user.RalfUserAddProcessor
+ralfSearchAgents,com.dorjear.ralf.form.agent.FormSearchAgentsRequest,com.dorjear.ralf.web.processor.user.RalfUserSearchProcessor

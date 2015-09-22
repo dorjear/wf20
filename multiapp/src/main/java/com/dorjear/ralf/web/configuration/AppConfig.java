@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import com.dorjear.ralf.web.processor.util.ApplicationContextProvider;
  
 @Configuration
-@ComponentScan(basePackages = "com.dorjear.ralf.web.processor")
+@ComponentScan(basePackages = "com.dorjear.ralf")
 public class AppConfig {
     @Bean
     public ApplicationContextProvider applicationContextProvder() {

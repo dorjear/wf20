@@ -16,6 +16,7 @@ import com.dorjear.base.gson.util.JsonObjectUtil;
 import com.dorjear.ralf.form.base.FormRequestBase;
 import com.dorjear.ralf.form.base.FormResponseBase;
 import com.dorjear.ralf.web.configuration.CmdConfig;
+import com.dorjear.ralf.web.processor.logonoff.AuthorizationException;
 import com.dorjear.ralf.web.processor.spi.RequestProcessor;
 import com.dorjear.ralf.web.processor.util.ApplicationContextProvider;
 import com.dorjear.ralf.web.processor.util.DemoResponseFileHelper;
@@ -53,11 +54,19 @@ public class JsonFrontController {
 	    	}
 	 		try {
 		    	formReq= (FormRequestBase) JsonObjectUtil.convertStringToObject(requestStr, formReqType);
+	 		    response.setCmd(cmd);
+	 		    //Check logon
+	 		    checkLogon(cmd, request);
+	 		    //Check logon
+
 		    	ApplicationContext context = ApplicationContextProvider.getApplicationContext();
 			    RequestProcessor processor;
-	 		    response.setCmd(formReq.getCmd());
-				processor = (RequestProcessor) context.getBean(Class.forName(processorType));
+	 		    processor = (RequestProcessor) context.getBean(Class.forName(processorType));
 			    response = processor.process(formReq, request);
+			} catch (AuthorizationException e) {
+				response.setErrorCode("NotAuthorized");
+				response.setResponseStatus("fail");
+				e.printStackTrace();
 			} catch (BeansException e) {
 				response.setErrorCode("GE0001");
 				response.setResponseStatus("error");
@@ -80,5 +89,15 @@ public class JsonFrontController {
 			return defaultErrorResponse;
 		}
     }
+
+	private void checkLogon(String cmd, HttpServletRequest request) throws AuthorizationException {
+		// TODO Auto-generated method stub
+		if("getLookUpData".equals(cmd) || "ralfLogon".equals(cmd)){
+			return;
+		}
+		if(request.getSession().getAttribute("logonUser")==null){
+//			throw new AuthorizationException();
+		}
+	}
  
 }

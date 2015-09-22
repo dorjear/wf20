@@ -108,7 +108,7 @@ public class HibernateGenericDao<T, ID extends Serializable> extends HibernateDa
 	 * @return
      * @throws Exception 
 	 */
-	public List<T> retrieveListByCriteria(List<Map<String, Object>> restrictions) throws Exception{
+	public List<T> retrieveListByMap(List<Map<String, Object>> restrictions) throws Exception{
 
 		Criterion[] criterions = null;
 		List<Criterion> andList = new ArrayList<Criterion>();
@@ -150,13 +150,10 @@ public class HibernateGenericDao<T, ID extends Serializable> extends HibernateDa
 			andList.add(c);
 		}
 		
-		criterions = new Criterion[andList.size()];
-		criterions = andList.toArray(criterions);
-		
-		return retrieveListByCriteria(criterions);
+		return retrieveListByCriteria(andList);
 	}
     
-	public List<T> retrieveListByCriteria(Criterion[] criterions) {
+	public List<T> retrieveListByCriteria(List<Criterion> criterions) {
 		List<T> resultList;
 		Transaction transaction = null;
 		Session session = null;

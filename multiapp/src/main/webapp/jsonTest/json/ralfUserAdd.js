@@ -1,0 +1,34 @@
+var ralfUserAdd = {
+	"cmd":"ralfUserAdd",
+	"user":{
+	"userId":"dor1101",
+	"password":"abc123",
+	"roles":[
+		"1101",
+		"1102"
+	],
+	"firstName":"Supy",
+	"middleName":"Kakacek",
+	"lastName":"Splier",
+	"email":"becquerelite@pleadable.net",
+	"outofficeStart":"31/12/2015",
+	"outofficeEnd":"31/12/2016",
+	"riskType":"",
+	"productGroups":[
+		"CMG",
+		"OST"
+	],
+	"campaignEditor":false,
+	"managerId":"M123456789",
+	"readonly":false,
+	"mobile":"61417238460",
+	"hubId":"123456789",
+	"idApprover":false,
+	"appSubmitter":false,
+	"autoAllocation":false,
+	"leadCapacity":1234,
+	"applicationCapacity":1234,
+	"allowClickToAssist":false,
+	"primaryBranch":"B009"
+	}
+};

@@ -1,13 +1,18 @@
 package com.dorjear.ralf.db.service.impl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.hibernate.criterion.Criterion;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.dorjear.base.util.converter.DataConverterUtil;
+import com.dorjear.ralf.db.model.RalfUserSearchCriteria;
 import com.dorjear.ralf.db.model.TbRalfUser;
 import com.dorjear.ralf.db.service.UserService;
 import com.dorjear.ralf.db.service.util.HibernateGenericDao;
@@ -51,5 +56,21 @@ public class UserServiceImpl implements UserService{
 	@Override
 	public TbRalfUser getById(String id) {
 		return tbRalfUserDao.findById(id);
+	}
+
+	@Override
+	public List<TbRalfUser> search(RalfUserSearchCriteria searchInput) {
+		// TODO extract to mapper
+		List<Criterion> criteria = new ArrayList<Criterion>();
+		
+		if(searchInput.getBranch()!=null) criteria.add(Restrictions.eq("primaryBranch", searchInput.getBranch()));
+		if(searchInput.getRoles()!=null && searchInput.getRoles().length>0){
+			for(String role : searchInput.getRoles()){
+				criteria.add(Restrictions.like("roles", "%"+role+"%"));
+			}
+		}
+		// TODO extract to mapper
+		
+		return tbRalfUserDao.retrieveListByCriteria(criteria);
 	}
 }
