@@ -422,7 +422,7 @@ public class JsonObjectUtil {
 		String result = "";
 		try {
 			result=gson.toJson(object);
-			System.out.println("jsonString=\n"+result);					
+//			System.out.println("jsonString=\n"+result);					
 		} catch (JsonSyntaxException e) {
 			e.printStackTrace();
 		}		

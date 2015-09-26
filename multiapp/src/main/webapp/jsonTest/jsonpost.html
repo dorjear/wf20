@@ -5,6 +5,8 @@
 <script src="json/ralfLogon.js"></script>
 <script src="json/ralfUserAdd.js"></script>
 <script src="json/ralfSearchAgents.js"></script>
+<script src="json/ralfGetUserNameEmail.js"></script>
+<script src="json/ralfLoadUser.js"></script>
 
 <script src="sendJSON.js"></script>
 <script>
@@ -22,6 +24,12 @@ function() {
 	
 	$("#ralfSearchAgents").click( function(e){
 		$('#dataToSend').val(JSON.stringify(ralfSearchAgents));
+	});	
+	$("#ralfGetUserNameEmail").click( function(e){
+		$('#dataToSend').val(JSON.stringify(ralfGetUserNameEmail));
+	});	
+	$("#ralfLoadUser").click( function(e){
+		$('#dataToSend').val(JSON.stringify(ralfLoadUser));
 	});	
 }
 )
@@ -76,6 +84,8 @@ button{
 						<div style="font-size: 16px; font-weight: bold; color: #333333">Ralf User</div>
 						<button id="ralfUserAdd">ralfUserAdd</button>
 						<button id="ralfSearchAgents">ralfSearchAgents</button>
+						<button id="ralfGetUserNameEmail">ralfGetUserNameEmail</button>
+						<button id="ralfLoadUser">ralfLoadUser</button>
 					</div>
 				</div>
 			</td>

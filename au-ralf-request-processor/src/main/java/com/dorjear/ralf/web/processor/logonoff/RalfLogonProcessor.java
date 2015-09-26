@@ -1,7 +1,5 @@
 package com.dorjear.ralf.web.processor.logonoff;
 
-import java.util.List;
-
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,17 +26,19 @@ public class RalfLogonProcessor implements RequestProcessor{
 		FormLogonRequest request = (FormLogonRequest)formReq;
 		FormLogonResponse response = new FormLogonResponse();
 		response.setCmd(request.getCmd());
-		
-		TbRalfUser example = new TbRalfUser();
-		example.setUserId(request.getUserId());
-		example.setPassword(request.getPassword());
-		List<TbRalfUser> users = userService.findByExample(example);
-		if(users.size()==0){
+
+		TbRalfUser user = userService.getById(request.getUserId());
+		if(user==null){
 			response.setResponseStatus("error");
-			response.setErrorCode("logonfail");
+			response.setErrorCode("NO_USER");
 			return response;
 		}
-		FormUser formUser= (FormUser) JsonObjectUtil.convertStringToObject(users.get(0).getDetail(), FormUser.class.getName());
+		if(!request.getPassword().equals(user.getPassword())){
+			response.setResponseStatus("error");
+			response.setErrorCode("PASSWORD_WRONG");
+			return response;
+		}
+		FormUser formUser= (FormUser) JsonObjectUtil.convertStringToObject(user.getDetail(), FormUser.class.getName());
 		httpReq.getSession().setAttribute("logonUser", formUser);
 		response.setUser(formUser);
 		response.setResponseStatus("success");

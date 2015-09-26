@@ -3,6 +3,8 @@ package com.dorjear.ralf.web.controller;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.lang.StringUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
@@ -25,6 +27,9 @@ import com.dorjear.ralf.web.processor.util.DemoResponseFileHelper;
 @RequestMapping("/")
 public class JsonFrontController {
  
+	private final Log ralfDebugger = LogFactory.getLog("ralfDebug."+this.getClass().getName());
+	private final Log ralfAuditor = LogFactory.getLog("ralfAudit."+this.getClass().getName());
+
 	private final String defaultErrorResponse = "{\"responseStatus\":\"error\"}";
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String sayHello(ModelMap model) {
@@ -35,6 +40,7 @@ public class JsonFrontController {
     @RequestMapping(value = "/*", method = RequestMethod.POST)
     public @ResponseBody String handleRequestJsonAndResponseJson(@RequestBody String requestStr, HttpServletRequest request) {
 		try{
+			ralfAuditor.info("++Request++:" + requestStr);
 	    	String responseStr = defaultErrorResponse;
 		    FormResponseBase response = new FormResponseBase();
 		   	if(StringUtils.isBlank(DemoResponseFileHelper.getWebRoot())) {
@@ -54,7 +60,6 @@ public class JsonFrontController {
 	    	}
 	 		try {
 		    	formReq= (FormRequestBase) JsonObjectUtil.convertStringToObject(requestStr, formReqType);
-	 		    response.setCmd(cmd);
 	 		    //Check logon
 	 		    checkLogon(cmd, request);
 	 		    //Check logon
@@ -62,6 +67,7 @@ public class JsonFrontController {
 		    	ApplicationContext context = ApplicationContextProvider.getApplicationContext();
 			    RequestProcessor processor;
 	 		    processor = (RequestProcessor) context.getBean(Class.forName(processorType));
+				ralfDebugger.info("++Processor++:" + processor.getClass());
 			    response = processor.process(formReq, request);
 			} catch (AuthorizationException e) {
 				response.setErrorCode("NotAuthorized");
@@ -81,7 +87,9 @@ public class JsonFrontController {
 				e.printStackTrace();			
 			}
 
+	 		response.setCmd(formReq.getCmd());
 	    	responseStr = JsonObjectUtil.convertObjectToString(response);
+			ralfAuditor.info("++Response++:" + responseStr);
 	        return responseStr;
 			
 		}catch(Exception e){
@@ -96,7 +104,7 @@ public class JsonFrontController {
 			return;
 		}
 		if(request.getSession().getAttribute("logonUser")==null){
-//			throw new AuthorizationException();
+			throw new AuthorizationException();
 		}
 	}
  

@@ -3,3 +3,5 @@ getLookUpData,com.dorjear.ralf.form.base.FormRequestBase,com.dorjear.ralf.web.pr
 ralfLogon,com.dorjear.ralf.form.logonoff.FormLogonRequest,com.dorjear.ralf.web.processor.logonoff.RalfLogonProcessor
 ralfUserAdd,com.dorjear.ralf.form.user.FormUserRequestBase,com.dorjear.ralf.web.processor.user.RalfUserAddProcessor
 ralfSearchAgents,com.dorjear.ralf.form.agent.FormSearchAgentsRequest,com.dorjear.ralf.web.processor.user.RalfUserSearchProcessor
+ralfGetUserNameEmail,com.dorjear.ralf.form.user.FormUserIdRequestBase,com.dorjear.ralf.web.processor.user.RalfGetUserNameEmailProcessor
+ralfLoadUser,com.dorjear.ralf.form.user.FormUserIdRequestBase,com.dorjear.ralf.web.processor.user.RalfLoadUserProcessor
