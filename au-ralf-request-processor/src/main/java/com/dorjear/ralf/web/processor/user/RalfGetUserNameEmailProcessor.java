@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.dorjear.base.gson.util.JsonObjectUtil;
-import com.dorjear.ralf.db.model.RalfUserSearchCriteria;
+import com.dorjear.ralf.db.dto.RalfUserSearchCriteria;
 import com.dorjear.ralf.db.model.TbRalfUser;
 import com.dorjear.ralf.db.service.UserService;
 import com.dorjear.ralf.form.FormUser;

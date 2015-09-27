@@ -11,54 +11,54 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dorjear.ralf.db.dto.RalfUserSearchCriteria;
-import com.dorjear.ralf.db.model.TbRalfUser;
-import com.dorjear.ralf.db.service.UserService;
+import com.dorjear.ralf.db.dto.RalfCustomerSearchCriteria;
+import com.dorjear.ralf.db.model.TbRalfCustomer;
+import com.dorjear.ralf.db.service.CustomerService;
 import com.dorjear.ralf.db.service.util.HibernateGenericDao;
 
-@Service("userService")
+@Service("customerService")
 @Transactional
-public class UserServiceImpl implements UserService{
+public class CustomerServiceImpl implements CustomerService{
 	private final Log ralfDebugger = LogFactory.getLog("ralfDebug."+this.getClass().getName());
 	private final Log ralfAuditor = LogFactory.getLog("ralfAudit."+this.getClass().getName());
 	@Autowired
-	HibernateGenericDao<TbRalfUser, String> tbRalfUserDao;
+	HibernateGenericDao<TbRalfCustomer, String> tbRalfCustomerDao;
 	
 	@Override
-	public void save(TbRalfUser user){
+	public void save(TbRalfCustomer user){
 		ralfDebugger.debug(this.getClass());
-		ralfAuditor.info("save user " + user.getUserId());
-		tbRalfUserDao.save(user);
+		ralfAuditor.info("save customer " + user.getCustomerId());
+		tbRalfCustomerDao.save(user);
 	}
 
 	@Override
-	public List<TbRalfUser> findAll(){
-		return tbRalfUserDao.loadAll();
+	public List<TbRalfCustomer> findAll(){
+		return tbRalfCustomerDao.loadAll();
 	}
 
 	@Override
 	public void deleteById(String userId){
-		tbRalfUserDao.delete(userId);
+		tbRalfCustomerDao.delete(userId);
 	}
 
 	@Override
 	public
-	List<TbRalfUser> findByExample(TbRalfUser example){
-		return tbRalfUserDao.findByExample(example);
+	List<TbRalfCustomer> findByExample(TbRalfCustomer example){
+		return tbRalfCustomerDao.findByExample(example);
 	}
 	
 	@Override
-	public void update(TbRalfUser user){
-		tbRalfUserDao.update(user);
+	public void update(TbRalfCustomer user){
+		tbRalfCustomerDao.update(user);
 	}
 
 	@Override
-	public TbRalfUser getById(String id) {
-		return tbRalfUserDao.findById(id);
+	public TbRalfCustomer getById(String id) {
+		return tbRalfCustomerDao.findById(id);
 	}
 
 	@Override
-	public List<TbRalfUser> search(RalfUserSearchCriteria searchInput) {
+	public List<TbRalfCustomer> search(RalfCustomerSearchCriteria searchInput) {
 		// TODO extract to mapper
 		List<Criterion> criteria = new ArrayList<Criterion>();
 		
@@ -70,6 +70,6 @@ public class UserServiceImpl implements UserService{
 		}
 		// TODO extract to mapper
 		
-		return tbRalfUserDao.retrieveListByCriteria(criteria);
+		return tbRalfCustomerDao.retrieveListByCriteria(criteria);
 	}
 }

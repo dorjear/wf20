@@ -1,4 +1,4 @@
-package com.dorjear.ralf.db.model;
+package com.dorjear.ralf.db.dto;
 
 
 public class RalfUserSearchCriteria {

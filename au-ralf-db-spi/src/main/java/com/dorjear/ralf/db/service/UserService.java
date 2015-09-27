@@ -2,7 +2,7 @@ package com.dorjear.ralf.db.service;
 
 import java.util.List;
 
-import com.dorjear.ralf.db.model.RalfUserSearchCriteria;
+import com.dorjear.ralf.db.dto.RalfUserSearchCriteria;
 import com.dorjear.ralf.db.model.TbRalfUser;
 
 public interface UserService {
