@@ -7,6 +7,7 @@
 <script src="json/ralfSearchAgents.js"></script>
 <script src="json/ralfGetUserNameEmail.js"></script>
 <script src="json/ralfLoadUser.js"></script>
+<script src="json/ralfAddLead.js"></script>
 
 <script src="sendJSON.js"></script>
 <script>
@@ -30,6 +31,9 @@ function() {
 	});	
 	$("#ralfLoadUser").click( function(e){
 		$('#dataToSend').val(JSON.stringify(ralfLoadUser));
+	});	
+	$("#ralfAddLead").click( function(e){
+		$('#dataToSend').val(JSON.stringify(ralfAddLead));
 	});	
 }
 )
@@ -86,6 +90,7 @@ button{
 						<button id="ralfSearchAgents">ralfSearchAgents</button>
 						<button id="ralfGetUserNameEmail">ralfGetUserNameEmail</button>
 						<button id="ralfLoadUser">ralfLoadUser</button>
+						<button id="ralfAddLead">ralfAddLead</button>
 					</div>
 				</div>
 			</td>

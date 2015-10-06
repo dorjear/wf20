@@ -28,6 +28,12 @@ public class TbRalfApplication {
 	@Column(name = "date_of_birth", nullable = true, length=30)
 	private Date dateOfBirth;
 	
+	@Column(name = "product_group", nullable = true, length=30)
+	private String productGroup;
+
+	@Column(name = "status", nullable = true, length=30)
+	private String status;
+
 	@Column(name = "create_date", nullable = true)
 	private Date createDate;
 	
@@ -38,24 +44,97 @@ public class TbRalfApplication {
 	@Lob
 	private String appAttribute;
 
-	@Column(name = "applicant", nullable = true)
+	@Column(name = "detail", nullable = true)
 	@Lob
-	private String applicant;
+	private String detail;
+
+	public String getApplicationId() {
+		return applicationId;
+	}
+
+	public void setApplicationId(String applicationId) {
+		this.applicationId = applicationId;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getMiddleName() {
+		return middleName;
+	}
+
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public Date getDateOfBirth() {
+		return dateOfBirth;
+	}
+
+	public void setDateOfBirth(Date dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+
+	public String getProductGroup() {
+		return productGroup;
+	}
+
+	public void setProductGroup(String productGroup) {
+		this.productGroup = productGroup;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public Date getCreateDate() {
+		return createDate;
+	}
+
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
+	}
+
+	public Date getLastUpdateDate() {
+		return lastUpdateDate;
+	}
+
+	public void setLastUpdateDate(Date lastUpdateDate) {
+		this.lastUpdateDate = lastUpdateDate;
+	}
+
+	public String getAppAttribute() {
+		return appAttribute;
+	}
+
+	public void setAppAttribute(String appAttribute) {
+		this.appAttribute = appAttribute;
+	}
+
+	public String getDetail() {
+		return detail;
+	}
+
+	public void setDetail(String detail) {
+		this.detail = detail;
+	}
 	
-	@Column(name = "partner", nullable = true)
-	@Lob
-	private String partner;
-	
-	@Column(name = "hub_decision", nullable = true)
-	@Lob
-	private String hubDecision;
-	
-	@Column(name = "maps_decision", nullable = true)
-	@Lob
-	private String mapsDecision;
-	
-	@Column(name = "evid_result", nullable = true)
-	@Lob
-	private String evidResult;
 	
 }

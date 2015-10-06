@@ -8,8 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.Table;
 
-//@Entity
-//@Table(name="TB_RALF_USER")
+@Entity
+@Table(name="TB_RALF_USER")
 public class TbRalfUser {
 
 	@Id

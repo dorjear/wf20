@@ -5,3 +5,4 @@ ralfUserAdd,com.dorjear.ralf.form.user.FormUserRequestBase,com.dorjear.ralf.web.
 ralfSearchAgents,com.dorjear.ralf.form.agent.FormSearchAgentsRequest,com.dorjear.ralf.web.processor.user.RalfUserSearchProcessor
 ralfGetUserNameEmail,com.dorjear.ralf.form.user.FormUserIdRequestBase,com.dorjear.ralf.web.processor.user.RalfGetUserNameEmailProcessor
 ralfLoadUser,com.dorjear.ralf.form.user.FormUserIdRequestBase,com.dorjear.ralf.web.processor.user.RalfLoadUserProcessor
+ralfAddLead,com.dorjear.ralf.form.lead.FormAddLeadRequest,com.dorjear.ralf.web.processor.user.RalfAddLeadProcessor

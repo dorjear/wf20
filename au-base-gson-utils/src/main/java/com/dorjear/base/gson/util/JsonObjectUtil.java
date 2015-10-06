@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Field;
 import java.lang.reflect.Type;
 import java.util.Properties;
 import java.util.StringTokenizer;
@@ -442,6 +443,44 @@ public class JsonObjectUtil {
 		return result;
 	}	
 	
+	public static <T> String generateSampleData(Class<T> clazz){
+		try {
+			Integer i = 10;
+			Long l = 100L;
+			Double d = 3.0;
+			T obj = clazz.newInstance();
+			Field[] fields = obj.getClass().getDeclaredFields();
+			for(Field field : fields){
+				field.setAccessible(true);
+				if(field.getType().equals(String.class)){
+					field.set(obj, field.getName());
+				}
+				if(field.getType().equals(Integer.class)){
+					field.set(obj, i++);
+				}
+				if(field.getType().equals(Long.class)){
+					field.set(obj, l++);
+				}
+				if(field.getType().equals(Double.class)){
+					field.set(obj, d++);
+				}
+				if(field.getType().equals(Boolean.class)){
+					field.set(obj, false);
+				}
+			}
+			return gson.toJson(obj);
+		} catch (IllegalArgumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InstantiationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
 	private static String handleDataFileName(String dataFileName){
 		if(StringUtils.isNotBlank(dataFilePrefix) & !dataFileName.startsWith(dataFilePrefix)){
 			dataFileName=dataFilePrefix+dataFileName;
