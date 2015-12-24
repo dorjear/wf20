@@ -1,0 +1,7 @@
+{
+    "cmd": "ralfBranchAddOrUpdate",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [],
+    "isEnabled": true
+}

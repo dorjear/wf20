@@ -1,0 +1,12 @@
+{
+    "cmd": "deleteUser",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [
+        {
+            "code": "",
+            "desc": ""
+        }
+    ],
+    "isEnabled": true
+}

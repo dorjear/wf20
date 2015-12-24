@@ -1,0 +1,53 @@
+{
+    "cmd": "ralfCustAppLeadSummary",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [],
+    "summaries": [
+        {
+            "appRefNumber": "DD0000003",
+            "ralfCustomerId": 1234,
+            "hubCustomerId": "56565656",
+            "firstName": "Francis",
+            "middleName": "Tony",
+            "lastName": "King",
+            "dateOfBirth": "02/02/1922",
+            "campaign": "EEFFFGG",
+            "need": "BNK",
+            "productGroup": "N1F",
+            "productCodes": [
+                "CMG",
+                "OST",
+                "ABC"
+            ],
+            "assignedToStaff": "43555666",
+            "assignedToStaffName": "Johm Smith",
+            "assignedToBranch": "SYD",
+            "appOrLead": "L",
+            "status": "In progress",
+            "suburb": "SYD",
+            "postcode": "22/06/1905",
+            "idType": "DL",
+            "idNumber": "43434343",
+            "recordType": "A/L",
+            "channel": "0",
+            "beError1": "ioioi",
+            "beError2": "ioioi",
+            "evidOverall": "Y",
+            "fraud": true,
+            "pep": true,
+            "sanctions": true,
+            "velocity": true,
+            "dateEntered": "02/02/2015",
+            "dateSubmitted": "02/02/2015",
+            "dateLastActioned": "02/02/2015",
+            "dateFollowUp": "02/02/2015",
+            "createdBy": "43555666",
+            "createdByName": "Michael George",
+            "monitoredBy": "43555666",
+            "monitoredByName": "Michael George",
+            "source": "NPP"
+        }
+    ],
+    "isEnabled": true
+}

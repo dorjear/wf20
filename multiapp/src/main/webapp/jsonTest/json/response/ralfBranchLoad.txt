@@ -1,0 +1,56 @@
+{
+    "cmd": "ralfBranchLoad",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [],
+    "branch": {
+        "code": "BRZ010",
+        "name": "George, Sydney",
+        "bsb": "242-200",
+        "type": "",
+        "region": "N1B",
+        "phone": "61211111111",
+        "hubBranchCode": "BRZ010HB",
+        "address": {
+            "unit": "",
+            "streetNumber": "580",
+            "streetName": "George",
+            "streetType": "ST",
+            "city": "Sydney",
+            "state": "NSW",
+            "countryCode": "AUS",
+            "zip": "2000",
+            "propertyName": "",
+            "addressLine1": "",
+            "addressLine2": "",
+            "tenureMonths": "",
+            "tenureYears": ""
+        },
+        "teamGroups": [
+            {
+                "id": 1,
+                "name": "Marketing",
+                "allowAutoAllocation": true,
+                "teams": [
+                    {
+                        "id": 5,
+                        "name": "Online Marketing"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Digital",
+                "allowAutoAllocation": false,
+                "teams": [
+                    {
+                        "id": 3,
+                        "name": "Online Digital",
+                        "contactChannel": "I"
+                    }
+                ]
+            }
+        ]
+    },
+    "isEnabled": true
+}

@@ -1,0 +1,39 @@
+{
+    "cmd": "ralfGetBranchTeam",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [],
+    "teams": [
+        {
+            "id": "101",
+            "name": "Red Bull",
+            "allowAutoAllocation": false,
+            "teams": [
+                {
+                    "id": "202",
+                    "name": "Red Bull Sydney"
+                },
+                {
+                    "id": "203",
+                    "name": " Red Bull Melbourne"
+                }
+            ]
+        },
+        {
+            "id": "102",
+            "name": "Mountain Dew",
+            "allowAutoAllocation": false,
+            "teams": [
+                {
+                    "id": "2021",
+                    "name": "Mountain Dew Sydney"
+                },
+                {
+                    "id": "2022",
+                    "name": "Mountain Dew Malbourne"
+                }
+            ]
+        }
+    ],
+    "isEnabled": true
+}

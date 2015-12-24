@@ -1,0 +1,20 @@
+{
+    "cmd": "ralfStaffActionHistory",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [],
+    "actions": [
+        {
+            "sessionId": "19283746",
+            "appRefNumber": "A123456789",
+            "ralfCustomerId": 54321,
+            "staff": "Dorene Wilder",
+            "action": "",
+            "actionDesc": "",
+            "actionDate": "10/10/1990",
+            "actionTime": "10:10:10",
+            "remark": "Corporation sprawl kanji futurity knife fetishism free-market. Dead corrupted bicycle skyscraper sign motion boat tiger-team car decay courier silent sensory market. 8-bit silent skyscraper footage sub-orbital savant man dead nodality dome. Car camera table lights franchise vehicle corporation boat bridge nano-dome gang order-flow. Sunglasses network assault rebar engine boy Chiba city San Francisco construct vehicle vinyl Legba office numinous. "
+        }
+    ],
+    "isEnabled": true
+}
