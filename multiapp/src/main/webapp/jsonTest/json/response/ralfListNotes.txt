@@ -1,0 +1,22 @@
+{
+    "cmd": "ralfListNotes",
+    "responseStatus": "success",
+    "errorCode": "",
+    "notes": [
+        {
+            "appRefNumber": "",
+            "ralfCustomerId": 0,
+            "applicantType": "M",
+            "content": "Tiger-team-space dome grenade vinyl order-flow numinous saturation point dolphin decay render-farm franchise chrome cardboard computer fetishism network. Rain advert pistol claymore mine corporation cyber-dissident Tokyo saturation point tower artisanal stimulate. Weathered otaku rebar assault tube grenade into 3D-printed j-pop city corporation euro-pop dolphin knife marketing. Corrupted bridge 8-bit drone-space beef noodles cardboard camera girl neural pre-systemic order-flow uplink tattoo DIY semiotics. Courier hacker bicycle 8-bit realism warehouse hotdog. ",
+            "noteType": "",
+            "important": false,
+            "createdBy": "Dominique Hinh",
+            "createDate": "06/06/1960",
+            "createTime": "06:06:06",
+            "updatedBy": "",
+            "updateDate": "",
+            "updateTime": ""
+        }
+    ],
+    "isEnabled": true
+}

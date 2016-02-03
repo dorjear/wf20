@@ -1,0 +1,21 @@
+{
+    "cmd": "ralfContactHistory",
+    "responseStatus": "",
+    "errorCode": "",
+    "validationErrors": [],
+    "contacts": [
+        {
+            "appRefNumber": "",
+            "ralfCustomerId": 0,
+            "applicantType": "M",
+            "contactType": "E",
+            "content": "Math-garage ablative shrine footage sign marketing cardboard disposable assault. Drone denim saturation point Shibuya silent network apophenia semiotics claymore mine Tokyo pre-augmented reality systema footage. Marketing refrigerator human plastic rebar network car math-city physical cartel futurity sensory saturation point systema. Singularity disposable pistol car market carbon tanto convenience store narrative crypto-free-market saturation point ablative Tokyo. Shoes BASE jump concrete apophenia tattoo lights car monofilament face forwards stimulate sub-orbital. Computer engine urban corrupted into cartel marketing drone spook industrial grade. Monofilament chrome shrine market wristwatch fluidity uplink pen systema human boy singularity claymore mine numinous systemic dissident. ",
+            "status": "",
+            "errorMessage": "",
+            "createdBy": "Herschel Kida",
+            "createDate": "12/12/1933",
+            "createTime": "11:11:11"
+        }
+    ],
+    "isEnabled": true
+}

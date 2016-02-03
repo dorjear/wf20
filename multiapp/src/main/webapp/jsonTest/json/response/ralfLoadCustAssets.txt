@@ -1,0 +1,41 @@
+{
+
+    "cmd":"ralfLoadCustAssets",
+    "responseStatus":"success",
+    "errorCode":"",
+    "assets":[
+        {
+            "category":"A",
+            "code":"CD",
+            "amount":2100000,
+            "description":"2 House in CBD"
+        },
+        {
+            "category":"L",
+            "code":"MG",
+            "amount":1000000,
+            "description":"2 House in CBD",
+            "rate":3.5,
+            "rateType":"F",
+            "maturityDate":"31/12/2055"
+        },
+        {
+            "category":"W",
+            "code":"SP",
+            "amount":2000000,
+            "description":"Life Insurance",
+            "maturityDate":"31/12/2055"
+        },
+        {
+            "category":"L",
+            "code":"LMG",
+            "amount":202,
+            "description":"House in city",
+            "rate":4.5,
+            "rateType":"F",
+            "maturityDate":"20/06/2020"
+        }
+    ],
+    "isEnabled":true
+
+}

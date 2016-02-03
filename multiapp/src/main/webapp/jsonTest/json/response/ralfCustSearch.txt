@@ -1,0 +1,46 @@
+{
+    "cmd": "ralfCustSearch",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [],
+    "searchResults": [
+        {
+            "ralfCustomerId": null,
+            "gender": "M",
+            "customerName": "Francis King",
+            "addressLine": "125 Forest Road, Newtown, 2205",
+            "countryCode": "AUS",
+            "groupMember": "FD",
+            "hubCustomerId": "1",
+            "classification": "WT",
+            "customerStatus": "S",
+            "customerIndex": "3",
+            "jointIndicator": "N",
+            "idType": "YY",
+            "idTypeDesc": "TT",
+            "idNumber": "32143"
+        },
+        {
+            "ralfCustomerId": 2,
+            "gender": "F",
+            "customerName": "Missy Elliot",
+            "addressLine": "312 George Street, Sydney 2000",
+            "countryCode": "AUS",
+            "groupMember": "FR",
+            "hubCustomerId": "54363",
+            "classification": "GH",
+            "customerStatus": "TT",
+            "customerIndex": "GG",
+            "jointIndicator": "HH",
+            "idType": "FF",
+            "idTypeDesc": "RR",
+            "idNumber": "567456"
+        },
+        {
+	        "ralfCustomerId":133,
+	        "customerName":"Francis King"
+	    }
+
+    ],
+    "isEnabled": true
+}

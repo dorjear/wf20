@@ -1,0 +1,6 @@
+{
+  "cmd": "ralfAddUser",
+  "responseStatus": "success",
+  "errorCode": "",
+  "validationErrors": []
+}

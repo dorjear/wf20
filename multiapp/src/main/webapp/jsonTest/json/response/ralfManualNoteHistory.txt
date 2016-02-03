@@ -1,0 +1,23 @@
+{
+    "cmd": "ralfManualNoteHistory",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [],
+    "notes": [
+        {
+            "appRefNumber": "1234",
+            "ralfCustomerId": 1205,
+            "applicantType": "M",
+            "content": "MMider Silent Legba-space dead motion cardboard hacker city. Free-market sprawl bomb tanto hotdog man augmented reality nodality order-flow DIY wristwatch long-chain hydrocarbons papier-mache concrete tank-traps. Industrial grade alcohol warehouse denim bridge uplink hacker drugs decay refrigerator jeans augmented reality tanto pen sentient Tokyo. Bridge rebar singularity tower fluidity carbon fetishism city RAF pen hotdog tiger-team. Geodesic bridge face forwards engine advert neural DIY. Rebar grenade dolphin bicycle nodality urban numinous order-flow skyscraper crypto-office assault nodal point. Assault vinyl saturation point DIY bicycle meta-man dome. BASE jump render-farm vehicle beef noodles face forwards dolphin car smart-lights Legba sub-orbital modem nodality. ",
+            "noteType": "",
+            "important": false,
+            "createdBy": "Donald Draper",
+            "createDate": "12/12/1922",
+            "createTime": "12:12:12",
+            "updatedBy": "",
+            "updateDate": "",
+            "updateTime": ""
+        }
+    ],
+    "isEnabled": true
+}

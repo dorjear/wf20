@@ -1,0 +1,12 @@
+{
+    "cmd": "logoff",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [
+        {
+            "code": "",
+            "desc": ""
+        }
+    ],
+    "isEnabled": true
+}

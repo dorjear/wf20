@@ -1,0 +1,128 @@
+{        
+	"cmd" : "ralfLoadCustInfo",    
+	"responseStatus" : "success",    
+	"errorCode" : "  ",    
+	"basicInfo" : {      
+	  "title" : "MR",  
+	  "firstName" : "Francis",  
+	  "middleName" : "Tony",  
+	  "lastName" : "King",  
+	  "mobilePhone" : "433334444",  
+	  "homePhone" : "255556666",  
+	  "email" : "tony@king.com",   
+	  "dateOfBirth" : "31/12/1988",  
+	  "gender" : "M",  
+	  "maidenName" : "George",  
+	  "currentAddress" : {    
+		"unit" : "1",
+		"streetNumber" : "30",
+		"streetName" : "Tilba",
+		"streetType" : "ST",
+		"city" : "Berala",
+		"state" : "NSW",
+		"countryCode" : "AUS",
+		"zip" : "2141",
+		"propertyName" : "The Barala Garden",
+		"addressLine1" : "  ",
+		"addressLine2" : "  ",
+		"tenureMonths" : "5",
+		"tenureYears" : "5"
+		},    
+	  "mailingAddress" : {    
+		"unit" : "1",
+		"streetNumber" : "30",
+		"streetName" : "Tilba",
+		"streetType" : "ST",
+		"city" : "Berala",
+		"state" : "NSW",
+		"countryCode" : "AUS",
+		"zip" : "2141",
+		"propertyName" : "The Barala Garden",
+		"addressLine1" : "  ",
+		"addressLine2" : "  ",
+		"tenureMonths" : "5",
+		"tenureYears" : "5"
+		}    
+	  },      
+	"hubInfo" : {      
+	  "segment" : "Premier",  
+	  "corporatePartner" : "Price Waterhouse",  
+	  "relationshipManager" : "Terry Goodkind",  
+	  "financialPlanner" : "George Mattin",  
+	  "lastKYCRefreshDate" : "15/06/2015",
+	  "products" : [    
+		{   
+		"productGroup" : "GGG",
+		"productCode" : "PPP",
+		"balance" : 2000,
+		"dateOpened" : "15/06/2015",
+		"currency" : "AUD",
+		"accountNumber" : "2222 3333 4444 5555",
+		"accountName" : "Tony King"
+		},    
+		{    
+		"productGroup" : "GGG",
+		"productCode" : "PPP",
+		"balance" : 2000,
+		"dateOpened" : "15/06/2015",
+		"currency" : "AUD",
+		"accountNumber" : "2222 3333 4444 5555",
+		"accountName" : "Tony King"
+		},    
+		{    
+		"productGroup" : "GGG",
+		"productCode" : "PPP",
+		"balance" : 2000,
+		"dateOpened" : "15/06/2015",
+		"currency" : "AUD",
+		"accountNumber" : "2222 3333 4444 5555",
+		"accountName" : "Tony King"
+		}    
+		]    
+	  },      
+	"employment" : {      
+	  "employmentStatus" : "F",  
+	  "employerName" : "Telstra",  
+	  "employerAddress" : {    
+		"unit" : "1",
+		"streetNumber" : "30",
+		"streetName" : "Tilba",
+		"streetType" : "ST",
+		"subrub" : "Berala",
+		"state" : "NSW",
+		"countryCode" : "AUS",
+		"zip" : "2141",
+		"propertyName" : "The Barala Garden",
+		"addressLine1" : "  ",
+		"addressLine2" : "  ",
+		"tenureMonths" : "5",
+		"tenureYears" : "5"
+		},    
+	  "occupation" : "Farmer",  
+	  "industry" : "AGR",  
+	  "employmentMonths" : 5,  
+	  "employmentYears" : 5,  
+	  "previousEmployer" : "HSBC",  
+	  "previousOccupation" : "MGR",  
+	  "previousEmploymentMonths" : 5,  
+	  "previousEmploymentYears" : 5  
+	  },      
+	"incomeInfo" : {      
+	  "netSalary" : 2000,  
+	  "netSalaryFreq" : "M",  
+	  "netOther" : 2000,  
+	  "netOtherFreq" : "M",  
+	  "netPartner" : 2000,  
+	  "netPartnerFreq" : "M" , 
+	  "sourceOfWelth" : "S"  
+	  },      
+	"nationalities" : {      
+	  "nationality" : "AUS",  
+	  "multipleNationality" : "Y",  
+	  "nationality2" : "Terry Goodkind",  
+	  "nationality3" : "George Mattin",  
+	  "countryOfBirth" : "CHN",  
+	  "countryOfTax" : "AUS",  
+	  "tfn" : "255556666"  
+	  }      
+}        

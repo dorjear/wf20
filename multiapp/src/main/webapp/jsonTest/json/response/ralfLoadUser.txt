@@ -1,0 +1,38 @@
+{
+	"cmd": "ralfLoadUser",
+	"responseStatus": "success",
+	"errorCode": "",
+	"validationErrors": [{
+		"code": "",
+		"desc": ""
+	}],
+	"user": {
+		"userId": "1101",
+		"roles": ["1101"],
+		"firstName": "Supy",
+		"middleName": "Kakacek",
+		"lastName": "Splier",
+		"email": "becquerelite@pleadable.net",
+		"outofficeStart": "31/12/2015",
+		"outofficeEnd": "31/12/2016",
+		"riskType": "",
+		"productGroups": ["CMG"],
+		"regions": ["NSW"],
+		"teams": ["team1"],
+		"campaignEditor": false,
+		"managerId": "M123456789",
+		"readonly": false,
+		"mobile": "61417238460",
+		"hubId": "123456789",
+		"idApprover": false,
+		"appSubmitter": false,
+		"autoAllocation": false,
+		"bulkAllocationCapacity": 1234,
+		"emailPreferredName": "Supy",
+		"emailSignatureName": "Supy",
+		"applicationCapacity": 1234,
+		"smsPreferredName": "Supyfalse",
+		"primaryBranch": "B080",
+		"branches": ["B080", "B009"]
+	}
+}

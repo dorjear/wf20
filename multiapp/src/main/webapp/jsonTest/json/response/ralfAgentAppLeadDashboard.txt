@@ -1,0 +1,18 @@
+{
+    "cmd": "ralfAgentAppLeadDashboard",
+    "responseStatus": "success",
+    "errorCode": "",
+    "validationErrors": [],
+    "customers": 1,
+    "needs": 2,
+    "products": 3,
+    "followUps": 4,
+    "leadReferrals": 5,
+    "leadAppointments": 6,
+    "leadInprogress": 7,
+    "appDeposits": 8,
+    "appCards": 9,
+    "appPersonalLoans": 10,
+    "appHomeLoans": 11,
+    "isEnabled": true
+}
